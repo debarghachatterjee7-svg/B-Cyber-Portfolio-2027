@@ -1,21 +1,72 @@
-#  B.Cyber Admission Progress Journal (2027 Track)
+# 🛡️ B-Cyber Portfolio 2027
 
-This repository serves as my official, verifiable proof-of-learning log for the joint IIT Kanpur and IIT Madras Bachelor of Cybersecurity selection track.
+> My public learning portfolio documenting my preparation for the IIT Madras & IIT Kanpur B.Cyber admission process.
+
+---
+
+## 👨‍🎓 About Me
+
+Hi! I'm **Debargha Chatterjee**, a Class 12 student and JEE 2027 aspirant.
+
+This repository documents my journey from having **zero cybersecurity knowledge** to building practical skills in Linux, Python, networking, ethical hacking, CTFs, and cybersecurity projects.
+
+My goal is not just to earn certificates, but to build a portfolio that demonstrates real technical ability.
 
 ---
 
-## 📅 Month 1: Linux Foundational Command Line
+## 🎯 Objectives
 
-###  Day 1: Workspace Initialization & First Flag Capture
-*   **Time Invested:** 2 Hours ⏰
-*   **Environment Configured:** Successfully launched WSL2 Ubuntu Linux architecture on a Windows laptop. Fixed background duplicate registry errors using terminal diagnostic audits.
-*   **Hacking Level Cleared:** OverTheWire Bandit Level 0 ➔ Level 1 🏁
-*   **Commands Mastered:** `ssh`, `ls`, `cat`, `exit`, `wsl`
-
-####  Technical Logic Learned Today:
-1.  **System Discovery (`ls`):** Mastered using terminal strings to map directory files instead of using a graphic windows mouse cursor.
-2.  **Output Dumping (`cat`):** Learned to force the system layout engine to read data logs and stream plain-text credential flags directly onto my control interface.
-3.  **Secure Handshakes (`ssh`):** Initiated fully encrypted network tunnels to secure remote systems in Europe over specific port lines (`-p 2220`).
-4.  **Data Masking Protocol:** Understood the standard Linux terminal security feature where passwords stay entirely invisible during input to protect authentication integrity.
+- Learn Linux from scratch
+- Master Python for cybersecurity
+- Learn C and C++
+- Build cybersecurity projects
+- Solve CTF challenges
+- Participate in hackathons
+- Develop practical ethical hacking skills
+- Prepare for the IIT Madras & IIT Kanpur B.Cyber admission process
 
 ---
+
+## 📅 Progress
+
+| Month | Focus | Status |
+|--------|-------|--------|
+| Month 1 | Linux Fundamentals | 🟡 In Progress |
+| Month 2 | Networking & Bash | ⏳ Planned |
+| Month 3 | Python | ⏳ Planned |
+| Month 4 | C Programming | ⏳ Planned |
+| Month 5 | C++ & Data Structures | ⏳ Planned |
+| Month 6 | Web Security | ⏳ Planned |
+| Month 7 | Active Directory & Windows | ⏳ Planned |
+| Month 8 | Real Projects | ⏳ Planned |
+| Month 9 | TryHackMe & PicoCTF | ⏳ Planned |
+| Month 10 | Hackathons | ⏳ Planned |
+| Month 11 | Final Portfolio | ⏳ Planned |
+
+---
+
+## 📂 Repository Structure
+
+```text
+Journal/
+Notes/
+Labs/
+CTF/
+Projects/
+Research/
+Certificates/
+Assets/
+```
+
+---
+
+## 📖 Daily Journal
+
+- Day 1 → `Journal/Day001.md`
+- Day 2 → `Journal/Day002.md`
+
+More journals will be added as I continue my learning journey.
+
+---
+
+⭐ Every commit in this repository represents genuine learning, experiments, and practical work.
