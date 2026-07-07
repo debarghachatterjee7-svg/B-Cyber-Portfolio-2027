@@ -4,69 +4,97 @@
 
 ---
 
-## 👨‍🎓 About Me
+## 👨‍💻 About Me
 
 Hi! I'm **Debargha Chatterjee**, a Class 12 student and JEE 2027 aspirant.
 
-This repository documents my journey from having **zero cybersecurity knowledge** to building practical skills in Linux, Python, networking, ethical hacking, CTFs, and cybersecurity projects.
+This repository documents my journey from having **zero cybersecurity knowledge** to building practical skills in Linux, Python, networking, ethical hacking, digital forensics, web security, reverse engineering, and cybersecurity research.
 
-My goal is not just to earn certificates, but to build a portfolio that demonstrates real technical ability.
-
----
-
-## 🎯 Objectives
-
-- Learn Linux from scratch
-- Master Python for cybersecurity
-- Learn C and C++
-- Build cybersecurity projects
-- Solve CTF challenges
-- Participate in hackathons
-- Develop practical ethical hacking skills
-- Prepare for the IIT Madras & IIT Kanpur B.Cyber admission process
+Every concept I learn is documented through journals, hands-on labs, CTFs, projects, experiments, and reflections.
 
 ---
 
-## 📅 Progress
+## 🎯 Current Objective
 
-| Month | Focus | Status |
-|--------|-------|--------|
-| Month 1 | Linux Fundamentals | 🟡 In Progress |
-| Month 2 | Networking & Bash | ⏳ Planned |
-| Month 3 | Python | ⏳ Planned |
-| Month 4 | C Programming | ⏳ Planned |
-| Month 5 | C++ & Data Structures | ⏳ Planned |
-| Month 6 | Web Security | ⏳ Planned |
-| Month 7 | Active Directory & Windows | ⏳ Planned |
-| Month 8 | Real Projects | ⏳ Planned |
-| Month 9 | TryHackMe & PicoCTF | ⏳ Planned |
-| Month 10 | Hackathons | ⏳ Planned |
-| Month 11 | Final Portfolio | ⏳ Planned |
+Build strong cybersecurity fundamentals over the next 11 months while preparing for:
+
+- IIT Madras & IIT Kanpur B.Cyber
+- CTF Competitions
+- Hackathons
+- Open Source Contributions
+- Cybersecurity Research
+
+---
+
+## 📈 Progress Tracker
+
+| Day | Topic | Status |
+|------|-------------------------------|--------|
+| ✅ Day 1 | Linux Setup, SSH & Bandit Level 1 | Completed |
+| ✅ Day 2 | Linux Navigation & File Management | Completed |
+| ✅ Day 3 | File Reading Utilities, Nano & Bandit Level 3 | Completed |
+
+---
+
+## 🧠 Skills Learned So Far
+
+### Linux
+- WSL2 Installation
+- Basic Terminal Usage
+- SSH Connections
+- Linux Navigation
+- Directory Structure
+- Hidden Files
+- File Management
+- Nano Editor
+- File Viewing (`cat`, `head`, `tail`, `less`)
+- File Identification (`file`)
+
+### CTF
+- OverTheWire Bandit Level 0 → Level 3
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-Journal/
-Notes/
-Labs/
-CTF/
-Projects/
-Research/
-Certificates/
-Assets/
+journal/        → Daily learning journals
+notes/          → Personal notes
+labs/           → Practice exercises
+CTF/            → CTF write-ups
+projects/       → Cybersecurity projects
+research/       → Research topics
+certificates/   → Certifications
+assets/         → Screenshots & images
 ```
 
 ---
 
-## 📖 Daily Journal
+## 🚀 Current Milestone
 
-- Day 1 → `Journal/Day001.md`
-- Day 2 → `Journal/Day002.md`
+✔ Linux Fundamentals (In Progress)
 
-More journals will be added as I continue my learning journey.
+Current Focus:
+- Linux Commands
+- File System
+- File Permissions
+- Terminal Workflow
+- Problem Solving through CTFs
 
 ---
 
-⭐ Every commit in this repository represents genuine learning, experiments, and practical work.
+## 📅 Latest Update
+
+**Day 3 Completed**
+
+Today's Highlights:
+- Learned Nano text editor
+- Learned `head`, `tail`, `less`, and `file`
+- Practiced file creation and editing
+- Explored hidden files
+- Completed OverTheWire Bandit Level 3
+- Documented experiments and observations
+
+---
+
+> **"Learning cybersecurity by building practical skills one day at a time."**
