@@ -14,8 +14,9 @@ I am documenting my progress every day as I prepare for cybersecurity competitio
 | ✅ Day 2 | Linux Navigation & File System Basics |
 | ✅ Day 3 | Linux File Handling & OverTheWire Bandit Level 3 |
 | ✅ Day 4 | Linux Permissions & Hidden Files |
-| ✅ Day 5 | Linux File Identification, File Names & OverTheWire Bandit Level 4 |
-| ✅ Day 6 | Linux Searching Commands, grep, wc, find & OverTheWire Bandit Level 5 |
+| ✅ Day 5 | Linux File Identification & OverTheWire Bandit Level 4 |
+| ✅ Day 6 | Linux Search Commands (grep, wc, find) & OverTheWire Bandit Level 5 |
+| ✅ Day 7 | Advanced File Search, Output Redirection & OverTheWire Bandit Level 6 |
 
 ---
 
@@ -25,19 +26,12 @@ I am documenting my progress every day as I prepare for cybersecurity competitio
 Cybersecurity-Journey/
 │
 ├── assets/
-│
 ├── certificates/
-│
 ├── CTF/
-│
 ├── journal/
-│
 ├── labs/
-│
 ├── notes/
-│
 ├── projects/
-│
 └── research/
 ```
 
@@ -49,14 +43,15 @@ Cybersecurity-Journey/
 
 - Terminal Navigation
 - File & Directory Management
-- File Creation
-- File Editing
+- File Creation & Editing
 - Hidden Files
-- Permissions
+- File Permissions
 - File Types
 - Searching Files
 - Searching Text
 - Wildcards
+- File Attribute Search
+- Output Redirection
 
 ---
 
@@ -70,12 +65,13 @@ Cybersecurity-Journey/
 | Bandit 3 | ✅ |
 | Bandit 4 | ✅ |
 | Bandit 5 | ✅ |
+| Bandit 6 | ✅ |
 
 ---
 
 # 📚 Skills Learned
 
-### Linux
+### Linux Commands
 
 - pwd
 - ls
@@ -96,20 +92,15 @@ Cybersecurity-Journey/
 - wc
 - find
 
----
+### New Concepts
 
-### Concepts
-
-- Linux File System
-- Hidden Files
-- File Permissions
-- Relative vs Absolute Paths
-- File Identification
-- Searching Files
-- Searching Text
-- Wildcards
-- Linux Command Syntax
-- Recursive Search
+- File Ownership
+- File Groups
+- Searching by Size
+- Searching by Permissions
+- Searching by Type
+- Output Redirection (`2>/dev/null`)
+- Combining Search Conditions
 
 ---
 
@@ -117,16 +108,17 @@ Cybersecurity-Journey/
 
 Completed:
 
-- Linux practice exercises
-- File management practice
-- File permission exploration
+- Linux terminal practice
+- File management exercises
 - Hidden file exploration
-- File identification practice
-- grep practice
-- wc practice
-- find practice
-- Wildcard practice
-- OverTheWire Bandit Level 5
+- Permission analysis
+- File identification
+- Text searching with grep
+- File statistics using wc
+- Recursive search using find
+- Advanced file attribute search
+- Output redirection practice
+- OverTheWire Bandit Level 6
 
 ---
 
@@ -134,10 +126,11 @@ Completed:
 
 Current uploads include:
 
-- Linux terminal practice
+- Linux practice sessions
 - OverTheWire Bandit progress
 - Command experiments
-- Linux searching exercises
+- File searching practice
+- Advanced search by attributes
 
 ---
 
@@ -145,11 +138,11 @@ Current uploads include:
 
 Completed Learning Days:
 
-**6**
+**7**
 
 Bandit Levels Completed:
 
-**5**
+**6**
 
 Linux Commands Learned:
 
@@ -180,30 +173,31 @@ Build a strong cybersecurity foundation through:
 
 # 📅 Latest Update
 
-## ✅ Day 6 Completed
+## ✅ Day 7 Completed
 
 ### Today's Highlights
 
-- Learned Linux file searching using `find`
-- Learned text searching using `grep`
-- Practiced `wc` for counting lines, words and bytes
-- Learned wildcard (`*`) usage
-- Understood recursive searching
-- Completed OverTheWire Bandit Level 5
-- Learned the importance of Linux command syntax and spacing
-- Documented experiments, mistakes and observations
+- Learned advanced file searching using owner, group, size, permissions, and file type
+- Practiced combining multiple search conditions
+- Learned output redirection using `2>/dev/null`
+- Understood why suppressing error messages improves search readability
+- Completed OverTheWire Bandit Level 6
+- Documented experiments, mistakes, and observations
 
-> **"Small syntax mistakes can break commands, but understanding why they fail builds real Linux skills."**
+> **"Powerful Linux usage comes from combining simple commands to solve complex problems efficiently."**
 
 ---
 
 # 📌 Next Goal
 
-- Complete OverTheWire Bandit Level 6
-- Learn advanced file searching using file attributes
-- Strengthen Linux permissions knowledge
-- Continue documenting daily progress
+- Complete OverTheWire Bandit Level 7
+- Learn command pipelines
+- Continue strengthening Linux command-line skills
+- Keep documenting practical work
 
+---
+
+*"Learning cybersecurity by building practical skills one day at a time."*
 ---
 
 *"Learning cybersecurity by building practical skills one day at a time."*
