@@ -157,8 +157,8 @@ Current uploads include:
 | Bandit Levels Completed | **7** |
 | Linux Commands Learned | **18+** |
 | Journals | **8** |
-| Notes | **2** |
-| Labs | **2** |
+| Notes | **3** |
+| Labs | **3** |
 | Projects | **0** *(Starts from Month 2)* |
 | Research Articles | **0** *(Starts from Month 3)* |
 | Certificates | **0** |
