@@ -17,6 +17,7 @@ I am documenting my progress every day as I prepare for cybersecurity competitio
 | ✅ Day 5 | Linux File Identification & OverTheWire Bandit Level 4 |
 | ✅ Day 6 | Linux Search Commands (grep, wc, find) & OverTheWire Bandit Level 5 |
 | ✅ Day 7 | Advanced File Search, Output Redirection & OverTheWire Bandit Level 6 |
+| ✅ Day 8 | Text Searching using grep & OverTheWire Bandit Level 7 |
 
 ---
 
@@ -52,6 +53,7 @@ Cybersecurity-Journey/
 - Wildcards
 - File Attribute Search
 - Output Redirection
+- Text Pattern Searching using grep
 
 ---
 
@@ -66,12 +68,13 @@ Cybersecurity-Journey/
 | Bandit 4 | ✅ |
 | Bandit 5 | ✅ |
 | Bandit 6 | ✅ |
+| Bandit 7 | ✅ |
 
 ---
 
 # 📚 Skills Learned
 
-### Linux Commands
+## Linux Commands
 
 - pwd
 - ls
@@ -92,13 +95,19 @@ Cybersecurity-Journey/
 - wc
 - find
 
-### New Concepts
+## New Concepts
 
 - File Ownership
 - File Groups
 - Searching by Size
 - Searching by Permissions
 - Searching by Type
+- Searching by Owner
+- Searching by Group
+- Searching by Name
+- Text Searching using grep
+- Case-sensitive Search
+- Case-insensitive Search
 - Output Redirection (`2>/dev/null`)
 - Combining Search Conditions
 
@@ -113,12 +122,13 @@ Completed:
 - Hidden file exploration
 - Permission analysis
 - File identification
-- Text searching with grep
+- Text searching using grep
 - File statistics using wc
 - Recursive search using find
-- Advanced file attribute search
+- Advanced file attribute searching
 - Output redirection practice
-- OverTheWire Bandit Level 6
+- Searching inside large files efficiently
+- OverTheWire Bandit Level 7
 
 ---
 
@@ -131,26 +141,29 @@ Current uploads include:
 - Command experiments
 - File searching practice
 - Advanced search by attributes
+- grep command practice
+- Linux observations
+- Terminal experiments
+
+**Total Screenshots:** **12**
 
 ---
 
 # 📈 Learning Statistics
 
-Completed Learning Days:
-
-**7**
-
-Bandit Levels Completed:
-
-**6**
-
-Linux Commands Learned:
-
-**18+**
-
-Hours Invested:
-
-Growing every day.
+| Category | Progress |
+|----------|---------:|
+| Learning Days | **8** |
+| Bandit Levels Completed | **7** |
+| Linux Commands Learned | **18+** |
+| Journals | **8** |
+| Notes | **2** |
+| Labs | **2** |
+| Projects | **0** *(Starts from Month 2)* |
+| Research Articles | **0** *(Starts from Month 3)* |
+| Certificates | **0** |
+| Screenshots | **12** |
+| Approximate Hours Invested | **16+ Hours** |
 
 ---
 
@@ -173,31 +186,57 @@ Build a strong cybersecurity foundation through:
 
 # 📅 Latest Update
 
-## ✅ Day 7 Completed
+## ✅ Day 8 Completed
 
 ### Today's Highlights
 
-- Learned advanced file searching using owner, group, size, permissions, and file type
-- Practiced combining multiple search conditions
-- Learned output redirection using `2>/dev/null`
-- Understood why suppressing error messages improves search readability
-- Completed OverTheWire Bandit Level 6
-- Documented experiments, mistakes, and observations
+- Learned text searching using `grep`
+- Learned case-sensitive and case-insensitive searching using `grep` and `grep -i`
+- Completed OverTheWire Bandit Level 7
+- Understood why opening huge files directly using `cat` is inefficient
+- Improved command selection while solving Linux challenges
+- Continued maintaining daily cybersecurity documentation
 
-> **"Powerful Linux usage comes from combining simple commands to solve complex problems efficiently."**
+---
+
+# 💡 Lesson Learned
+
+Today I made an important practical mistake.
+
+Instead of searching directly for the required keyword, I initially opened the entire `data.txt` file using:
+
+```bash
+cat data.txt
+```
+
+Since the file contained millions of lines, the terminal became flooded with output and I lost my previous Linux practice history.
+
+From this experience, I learned that selecting the correct command is more important than simply viewing a file. Using `grep` allows targeted searching, making it much faster, cleaner, and significantly more efficient when working with large datasets.
+
+This mistake helped reinforce an important Linux principle:
+
+> **Use the right tool for the task instead of trying to inspect everything manually.**
 
 ---
 
 # 📌 Next Goal
 
-- Complete OverTheWire Bandit Level 7
-- Learn command pipelines
+- Complete OverTheWire Bandit Level 8
+- Learn Linux Pipelines (`|`)
+- Learn `sort`
+- Learn `uniq`
+- Learn `cut`
 - Continue strengthening Linux command-line skills
-- Keep documenting practical work
+- Keep documenting practical work and observations
 
 ---
 
-*"Learning cybersecurity by building practical skills one day at a time."*
+# 📖 Repository Vision
+
+This repository is being built as a complete record of my cybersecurity learning journey. Rather than only documenting completed challenges, it also captures the concepts learned, practical experiments, mistakes, observations, and reflections throughout the process.
+
+The long-term objective is to develop a strong foundation in Linux, programming, networking, web security, cryptography, digital forensics, and practical cybersecurity through continuous hands-on practice and structured documentation.
+
 ---
 
 *"Learning cybersecurity by building practical skills one day at a time."*
