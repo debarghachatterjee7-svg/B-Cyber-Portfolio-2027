@@ -18,6 +18,7 @@ I am documenting my progress every day as I prepare for cybersecurity competitio
 | ✅ Day 6 | Linux Search Commands (grep, wc, find) & OverTheWire Bandit Level 5 |
 | ✅ Day 7 | Advanced File Search, Output Redirection & OverTheWire Bandit Level 6 |
 | ✅ Day 8 | Text Searching using grep & OverTheWire Bandit Level 7 |
+| ✅ Day 9 | Linux Pipelines, sort, uniq & OverTheWire Bandit Level 8 |
 
 ---
 
@@ -53,7 +54,10 @@ Cybersecurity-Journey/
 - Wildcards
 - File Attribute Search
 - Output Redirection
-- Text Pattern Searching using grep
+- Linux Pipelines
+- Sorting Text Files
+- Duplicate Detection
+- Command Chaining
 
 ---
 
@@ -69,6 +73,7 @@ Cybersecurity-Journey/
 | Bandit 5 | ✅ |
 | Bandit 6 | ✅ |
 | Bandit 7 | ✅ |
+| Bandit 8 | ✅ |
 
 ---
 
@@ -94,6 +99,27 @@ Cybersecurity-Journey/
 - grep
 - wc
 - find
+- sort
+- uniq
+- ssh
+
+---
+
+## Linux Options Learned
+
+- `ls -a`
+- `grep -i`
+- `grep -n`
+- `find -name`
+- `find -user`
+- `find -group`
+- `find -size`
+- `find -type`
+- `sort -r`
+- `uniq -u`
+- `2>/dev/null`
+
+---
 
 ## New Concepts
 
@@ -105,11 +131,15 @@ Cybersecurity-Journey/
 - Searching by Owner
 - Searching by Group
 - Searching by Name
-- Text Searching using grep
-- Case-sensitive Search
+- Text Searching
 - Case-insensitive Search
-- Output Redirection (`2>/dev/null`)
-- Combining Search Conditions
+- Recursive Search
+- Output Redirection
+- Linux Pipelines
+- Sorting Data
+- Duplicate Detection
+- Unique Line Identification
+- Command Chaining
 
 ---
 
@@ -124,11 +154,15 @@ Completed:
 - File identification
 - Text searching using grep
 - File statistics using wc
-- Recursive search using find
+- Recursive searching using find
 - Advanced file attribute searching
 - Output redirection practice
 - Searching inside large files efficiently
-- OverTheWire Bandit Level 7
+- Linux pipeline practice
+- Sorting text files
+- Removing duplicate lines
+- Finding unique lines
+- OverTheWire Bandit Level 8
 
 ---
 
@@ -142,10 +176,12 @@ Current uploads include:
 - File searching practice
 - Advanced search by attributes
 - grep command practice
-- Linux observations
-- Terminal experiments
+- Linux pipeline practice
+- sort & uniq experiments
+- Terminal observations
+- Practical learning screenshots
 
-**Total Screenshots:** **12**
+**Total Screenshots:** **14**
 
 ---
 
@@ -153,17 +189,18 @@ Current uploads include:
 
 | Category | Progress |
 |----------|---------:|
-| Learning Days | **8** |
-| Bandit Levels Completed | **7** |
-| Linux Commands Learned | **18+** |
-| Journals | **8** |
-| Notes | **3** |
-| Labs | **3** |
-| Projects | **0** *(Starts from Month 2)* |
-| Research Articles | **0** *(Starts from Month 3)* |
-| Certificates | **0** |
-| Screenshots | **12** |
-| Approximate Hours Invested | **16+ Hours** |
+| Learning Days | **9** |
+| Bandit Levels Completed | **8** |
+| Linux Commands Learned | **21+** |
+| Linux Options Learned | **11** |
+| Journals | **9** |
+| Notes | **4** |
+| Labs | **4** |
+| Projects | **0** *(Planned from Month 2)* |
+| Research Articles | **0** *(Planned from Month 3)* |
+| Certificates | **0** *(Quality over Quantity)* |
+| Screenshots | **14** |
+| Approximate Hours Invested | **18+ Hours** |
 
 ---
 
@@ -179,63 +216,118 @@ Build a strong cybersecurity foundation through:
 - Reverse Engineering
 - Digital Forensics
 - OSINT
-- CTF Practice
+- Capture The Flag (CTF)
 - Security Projects
+- Security Research
+- Bug Hunting
 
 ---
 
 # 📅 Latest Update
 
-## ✅ Day 8 Completed
+## ✅ Day 9 Completed
 
 ### Today's Highlights
 
-- Learned text searching using `grep`
-- Learned case-sensitive and case-insensitive searching using `grep` and `grep -i`
-- Completed OverTheWire Bandit Level 7
-- Understood why opening huge files directly using `cat` is inefficient
-- Improved command selection while solving Linux challenges
-- Continued maintaining daily cybersecurity documentation
+- Learned Linux pipelines using `|`
+- Practiced `sort`, `sort -r`, `uniq`, and `uniq -u`
+- Understood why `sort` should be used before `uniq`
+- Learned command chaining for efficient text processing
+- Completed OverTheWire Bandit Level 8
+- Improved Linux command selection and workflow
+- Continued documenting practical work and observations
+
+> **"Linux becomes powerful when simple commands are combined to solve complex problems."**
 
 ---
 
 # 💡 Lesson Learned
 
-Today I made an important practical mistake.
+Today's lesson reinforced an important Linux principle.
 
-Instead of searching directly for the required keyword, I initially opened the entire `data.txt` file using:
+Initially, I assumed different commands could solve the same problem, but I learned that every Linux command has a specific responsibility.
+
+- `grep` searches for matching patterns.
+- `sort` organizes data.
+- `uniq` processes duplicate lines.
+- `uniq -u` identifies lines that occur exactly once.
+
+I also learned that Linux options must always be separated from the command using a space.
+
+For example:
+
+Correct:
 
 ```bash
-cat data.txt
+uniq -u
 ```
 
-Since the file contained millions of lines, the terminal became flooded with output and I lost my previous Linux practice history.
+Incorrect:
 
-From this experience, I learned that selecting the correct command is more important than simply viewing a file. Using `grep` allows targeted searching, making it much faster, cleaner, and significantly more efficient when working with large datasets.
+```bash
+uniq-u
+```
 
-This mistake helped reinforce an important Linux principle:
+Understanding both the problem and the purpose of each command leads to cleaner, faster, and more professional solutions.
 
-> **Use the right tool for the task instead of trying to inspect everything manually.**
+---
+
+# 📌 Current Repository Contents
+
+```
+📂 Cybersecurity-Journey
+
+├── 📁 assets
+│   └── 14 Screenshots
+│
+├── 📁 journal
+│   └── 9 Daily Journals
+│
+├── 📁 notes
+│   └── 4 Learning Notes
+│
+├── 📁 labs
+│   └── 4 Practical Labs
+│
+├── 📁 CTF
+│   └── OverTheWire Progress
+│
+├── 📁 certificates
+│
+├── 📁 projects
+│
+└── 📁 research
+```
 
 ---
 
 # 📌 Next Goal
 
-- Complete OverTheWire Bandit Level 8
-- Learn Linux Pipelines (`|`)
-- Learn `sort`
-- Learn `uniq`
-- Learn `cut`
+- Complete OverTheWire Bandit Level 9
+- Learn the `strings` command
+- Learn printable and non-printable characters
 - Continue strengthening Linux command-line skills
-- Keep documenting practical work and observations
+- Keep documenting practical work, experiments, and observations
 
 ---
 
 # 📖 Repository Vision
 
-This repository is being built as a complete record of my cybersecurity learning journey. Rather than only documenting completed challenges, it also captures the concepts learned, practical experiments, mistakes, observations, and reflections throughout the process.
+This repository is being built as a complete record of my cybersecurity learning journey.
 
-The long-term objective is to develop a strong foundation in Linux, programming, networking, web security, cryptography, digital forensics, and practical cybersecurity through continuous hands-on practice and structured documentation.
+Rather than only documenting completed challenges, it also captures:
+
+- Daily journals
+- Practical labs
+- Linux notes
+- Command experiments
+- Mistakes and lessons learned
+- Observations and reflections
+- CTF progress
+- Future security projects
+- Security research
+
+The long-term objective is to build strong practical skills in Linux, networking, scripting, cybersecurity, digital forensics, web security, cryptography, reverse engineering, and Capture The Flag competitions while maintaining a well-documented technical portfolio.
 
 ---
 
