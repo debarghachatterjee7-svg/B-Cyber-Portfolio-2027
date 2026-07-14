@@ -2,7 +2,7 @@
 
 Welcome to my cybersecurity learning journey.
 
-I am documenting my progress every day as I prepare for cybersecurity competitions, CTFs, projects, and practical security skills. This repository contains my daily journals, notes, labs, projects, and experiments.
+I am documenting my progress every day as I prepare for cybersecurity competitions, CTFs, security projects, Linux administration, and practical cybersecurity skills. This repository serves as my personal learning portfolio, documenting both successful experiments and mistakes that helped me improve.
 
 ---
 
@@ -11,14 +11,15 @@ I am documenting my progress every day as I prepare for cybersecurity competitio
 | Day | Topic |
 |------|-------|
 | ✅ Day 1 | Linux Setup & First CTF Challenge |
-| ✅ Day 2 | Linux Navigation & File System Basics |
+| ✅ Day 2 | Linux Navigation & File System Fundamentals |
 | ✅ Day 3 | Linux File Handling & OverTheWire Bandit Level 3 |
-| ✅ Day 4 | Linux Permissions & Hidden Files |
-| ✅ Day 5 | Linux File Identification & OverTheWire Bandit Level 4 |
-| ✅ Day 6 | Linux Search Commands (grep, wc, find) & OverTheWire Bandit Level 5 |
-| ✅ Day 7 | Advanced File Search, Output Redirection & OverTheWire Bandit Level 6 |
-| ✅ Day 8 | Text Searching using grep & OverTheWire Bandit Level 7 |
-| ✅ Day 9 | Linux Pipelines, sort, uniq & OverTheWire Bandit Level 8 |
+| ✅ Day 4 | Linux Permissions, Hidden Files & Bandit Level 4 |
+| ✅ Day 5 | File Identification & OverTheWire Bandit Level 5 |
+| ✅ Day 6 | grep, wc, find Commands & Bandit Level 5 |
+| ✅ Day 7 | Advanced File Search, File Attributes & Bandit Level 6 |
+| ✅ Day 8 | Pipelines, sort, uniq & Bandit Level 7 |
+| ✅ Day 9 | Linux Text Processing & Bandit Level 8 |
+| ✅ Day 10 | strings Command, Command Chaining & Bandit Level 9 |
 
 ---
 
@@ -28,12 +29,19 @@ I am documenting my progress every day as I prepare for cybersecurity competitio
 Cybersecurity-Journey/
 │
 ├── assets/
+│
 ├── certificates/
+│
 ├── CTF/
+│
 ├── journal/
+│
 ├── labs/
+│
 ├── notes/
+│
 ├── projects/
+│
 └── research/
 ```
 
@@ -41,30 +49,39 @@ Cybersecurity-Journey/
 
 # 🎯 Current Progress
 
-## Linux Basics ✅
+## Linux Fundamentals ✅
 
-- Terminal Navigation
-- File & Directory Management
-- File Creation & Editing
+Completed topics:
+
+- Linux Terminal
+- Directory Navigation
+- File Creation
+- File Deletion
+- File Copying
+- File Moving
+- File Renaming
 - Hidden Files
-- File Permissions
+- Linux Permissions
+- File Metadata
 - File Types
-- Searching Files
+- File Searching
 - Searching Text
+- Pattern Matching
 - Wildcards
-- File Attribute Search
-- Output Redirection
-- Linux Pipelines
-- Sorting Text Files
-- Duplicate Detection
-- Command Chaining
+- grep
+- wc
+- find
+- sort
+- uniq
+- strings
+- Command Pipelines
 
 ---
 
-## OverTheWire Bandit
+# 🏴 OverTheWire Progress
 
 | Level | Status |
-|--------|---------|
+|--------|--------|
 | Bandit 0 | ✅ |
 | Bandit 1 | ✅ |
 | Bandit 2 | ✅ |
@@ -74,12 +91,13 @@ Cybersecurity-Journey/
 | Bandit 6 | ✅ |
 | Bandit 7 | ✅ |
 | Bandit 8 | ✅ |
+| Bandit 9 | ✅ |
 
 ---
 
-# 📚 Skills Learned
+# 📚 Linux Commands Learned
 
-## Linux Commands
+## Basic Commands
 
 - pwd
 - ls
@@ -94,119 +112,152 @@ Cybersecurity-Journey/
 - head
 - tail
 - nano
+
+---
+
+## File Commands
+
 - file
 - stat
+
+---
+
+## Search Commands
+
 - grep
-- wc
 - find
+
+---
+
+## Counting Commands
+
+- wc
+
+---
+
+## Sorting & Text Processing
+
 - sort
 - uniq
-- ssh
+- strings
 
 ---
 
-## Linux Options Learned
+## Command Chaining
 
-- `ls -a`
-- `grep -i`
-- `grep -n`
-- `find -name`
-- `find -user`
-- `find -group`
-- `find -size`
-- `find -type`
-- `sort -r`
-- `uniq -u`
-- `2>/dev/null`
+- Pipe (`|`)
+- Output Redirection (`2>/dev/null`)
 
 ---
 
-## New Concepts
+# 🧠 Linux Concepts Learned
 
+- Linux File System
+- Relative vs Absolute Paths
+- Hidden Files
+- File Permissions
 - File Ownership
-- File Groups
-- Searching by Size
-- Searching by Permissions
-- Searching by Type
-- Searching by Owner
-- Searching by Group
-- Searching by Name
-- Text Searching
-- Case-insensitive Search
-- Recursive Search
-- Output Redirection
-- Linux Pipelines
-- Sorting Data
-- Duplicate Detection
-- Unique Line Identification
-- Command Chaining
+- Groups
+- File Types
+- Metadata
+- Search by Name
+- Search by User
+- Search by Group
+- Search by Size
+- Search by File Type
+- Searching Inside Files
+- Counting Lines, Words & Bytes
+- Printable Strings
+- Binary vs Text Files
+- Command Pipelines
+- Unix Philosophy (Combining Simple Commands)
 
 ---
 
-# 🏆 Practical Work
+# 🧪 Practical Work Completed
 
-Completed:
+Completed practical exercises include:
 
-- Linux terminal practice
-- File management exercises
+- Linux setup
+- File management
 - Hidden file exploration
 - Permission analysis
 - File identification
-- Text searching using grep
-- File statistics using wc
-- Recursive searching using find
-- Advanced file attribute searching
-- Output redirection practice
-- Searching inside large files efficiently
-- Linux pipeline practice
-- Sorting text files
-- Removing duplicate lines
-- Finding unique lines
-- OverTheWire Bandit Level 8
+- grep practice
+- wc practice
+- find practice
+- File attribute searching
+- sort command practice
+- uniq command practice
+- strings command practice
+- Command pipeline practice
+- Binary file inspection
+- Linux troubleshooting
+- OverTheWire practical labs
 
 ---
 
-# 📷 Screenshots
+# 📷 Repository Assets
 
-Current uploads include:
+Current repository contains:
 
-- Linux practice sessions
-- OverTheWire Bandit progress
-- Command experiments
-- File searching practice
-- Advanced search by attributes
-- grep command practice
-- Linux pipeline practice
-- sort & uniq experiments
-- Terminal observations
-- Practical learning screenshots
+## Journals
 
-**Total Screenshots:** **14**
+10
 
----
+## Labs
 
-# 📈 Learning Statistics
+5
 
-| Category | Progress |
-|----------|---------:|
-| Learning Days | **9** |
-| Bandit Levels Completed | **8** |
-| Linux Commands Learned | **21+** |
-| Linux Options Learned | **11** |
-| Journals | **9** |
-| Notes | **4** |
-| Labs | **4** |
-| Projects | **0** *(Planned from Month 2)* |
-| Research Articles | **0** *(Planned from Month 3)* |
-| Certificates | **0** *(Quality over Quantity)* |
-| Screenshots | **14** |
-| Approximate Hours Invested | **18+ Hours** |
+## Notes
+
+5
+
+## README Files
+
+1
+
+## Screenshots
+
+14
 
 ---
 
-# 🚀 Current Goal
+# 📊 Learning Statistics
 
-Build a strong cybersecurity foundation through:
+## Learning Days Completed
+
+**10**
+
+---
+
+## OverTheWire Levels Completed
+
+**Bandit Level 9**
+
+---
+
+## Linux Commands Learned
+
+**21+ Commands**
+
+---
+
+## Practical Experiments
+
+**30+**
+
+---
+
+## Hours Invested
+
+Approximately **20+ hours** of focused Linux and cybersecurity learning.
+
+---
+
+# 🎯 Current Learning Goals
+
+Build strong practical foundations in:
 
 - Linux
 - Networking
@@ -216,118 +267,75 @@ Build a strong cybersecurity foundation through:
 - Reverse Engineering
 - Digital Forensics
 - OSINT
-- Capture The Flag (CTF)
-- Security Projects
+- CTF Competitions
 - Security Research
-- Bug Hunting
+- Security Projects
 
 ---
 
 # 📅 Latest Update
 
-## ✅ Day 9 Completed
+## ✅ Day 10 Completed
 
 ### Today's Highlights
 
-- Learned Linux pipelines using `|`
-- Practiced `sort`, `sort -r`, `uniq`, and `uniq -u`
-- Understood why `sort` should be used before `uniq`
-- Learned command chaining for efficient text processing
-- Completed OverTheWire Bandit Level 8
-- Improved Linux command selection and workflow
-- Continued documenting practical work and observations
-
-> **"Linux becomes powerful when simple commands are combined to solve complex problems."**
+- Learned the `strings` command to extract printable text from binary files.
+- Practiced combining commands using Linux pipelines.
+- Learned how the `wc` command counts lines, words and bytes.
+- Explored command chaining using `grep`, `sort`, `uniq`, and `strings`.
+- Successfully completed OverTheWire Bandit Level 9.
+- Continued documenting mistakes, experiments and observations.
 
 ---
 
-# 💡 Lesson Learned
+# 💡 Lessons Learned
 
-Today's lesson reinforced an important Linux principle.
+One of today's biggest realizations was that Linux commands become significantly more powerful when they are combined.
 
-Initially, I assumed different commands could solve the same problem, but I learned that every Linux command has a specific responsibility.
+Instead of solving problems with one large command, Linux encourages chaining multiple small commands together using pipelines.
 
-- `grep` searches for matching patterns.
-- `sort` organizes data.
-- `uniq` processes duplicate lines.
-- `uniq -u` identifies lines that occur exactly once.
+This reinforces the Unix philosophy:
 
-I also learned that Linux options must always be separated from the command using a space.
-
-For example:
-
-Correct:
-
-```bash
-uniq -u
-```
-
-Incorrect:
-
-```bash
-uniq-u
-```
-
-Understanding both the problem and the purpose of each command leads to cleaner, faster, and more professional solutions.
+> **"Do one thing well, then combine tools to solve bigger problems."**
 
 ---
 
-# 📌 Current Repository Contents
+# 📌 Current Milestone
 
-```
-📂 Cybersecurity-Journey
+After completing the first 10 learning days, I have developed confidence with:
 
-├── 📁 assets
-│   └── 14 Screenshots
-│
-├── 📁 journal
-│   └── 9 Daily Journals
-│
-├── 📁 notes
-│   └── 4 Learning Notes
-│
-├── 📁 labs
-│   └── 4 Practical Labs
-│
-├── 📁 CTF
-│   └── OverTheWire Progress
-│
-├── 📁 certificates
-│
-├── 📁 projects
-│
-└── 📁 research
-```
+- Linux terminal navigation
+- Basic file system management
+- Searching files
+- Searching text
+- Understanding Linux metadata
+- Command chaining
+- Binary file inspection
+- Practical CTF problem solving
+- Daily technical documentation
 
 ---
 
-# 📌 Next Goal
+# 🚀 Next Goal
 
-- Complete OverTheWire Bandit Level 9
-- Learn the `strings` command
-- Learn printable and non-printable characters
-- Continue strengthening Linux command-line skills
-- Keep documenting practical work, experiments, and observations
+- Complete OverTheWire Bandit Level 10.
+- Learn additional Linux text processing utilities.
+- Continue building command-line confidence.
+- Maintain consistent documentation.
+- Begin weekly revision sessions starting Day 15 while continuing daily learning.
 
 ---
 
-# 📖 Repository Vision
+# 📖 Repository Purpose
 
-This repository is being built as a complete record of my cybersecurity learning journey.
+This repository is not only a collection of solved challenges but also a complete learning journal documenting:
 
-Rather than only documenting completed challenges, it also captures:
-
-- Daily journals
+- Daily progress
 - Practical labs
-- Linux notes
-- Command experiments
+- Technical notes
 - Mistakes and lessons learned
-- Observations and reflections
-- CTF progress
-- Future security projects
-- Security research
-
-The long-term objective is to build strong practical skills in Linux, networking, scripting, cybersecurity, digital forensics, web security, cryptography, reverse engineering, and Capture The Flag competitions while maintaining a well-documented technical portfolio.
+- Problem-solving approaches
+- Continuous improvement throughout my cybersecurity journey
 
 ---
 
