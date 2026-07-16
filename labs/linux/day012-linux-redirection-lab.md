@@ -28,7 +28,7 @@ find /home -name "*.xyz" 2> errors.txt
 - Store command output in files
 - Verify generated files
 
----
+--
 
 ## Outcome
 
