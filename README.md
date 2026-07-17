@@ -24,6 +24,7 @@ This repository serves as a long-term portfolio showcasing my daily learning, pr
 | ✅ Day 10 | Binary Text Inspection using `strings` |
 | ✅ Day 11 | Character Translation (`tr`) & Base64 |
 | ✅ Day 12 | Standard Streams, Redirection & ROT13 (`tr`) |
+| ✅ Day 13 | Hexadecimal Processing, Binary Reconstruction & Archive Extraction |
 
 ---
 
@@ -62,11 +63,18 @@ Completed:
 - File Statistics
 - Command Pipelines
 - Character Translation
+- Base64 Encoding
 - Base64 Decoding
 - Standard Streams
 - Output Redirection
 - Error Redirection
 - Linux Investigation Techniques
+- Hexadecimal Representation
+- Binary Reconstruction
+- File Signature Analysis
+- Linux Compression Utilities
+- Archive Extraction
+- Multi-layer File Processing
 
 ---
 
@@ -106,6 +114,7 @@ nano
 file
 stat
 strings
+xxd
 ```
 
 ---
@@ -128,6 +137,18 @@ uniq
 cut
 tr
 base64
+```
+
+---
+
+## Compression & Archives
+
+```text
+gzip
+gunzip
+bzip2
+bunzip2
+tar
 ```
 
 ---
@@ -205,9 +226,27 @@ base64
 - ROT13
 - Character Mapping
 - Character Translation
+- Hexadecimal Representation
+- Binary Reconstruction
 
 ---
 
+## File Investigation
+
+- File Signatures
+- Magic Bytes
+- File Identification using `file`
+- Binary Inspection using `xxd`
+
+---
+
+## Compression & Archives
+
+- gzip Compression
+- bzip2 Compression
+- tar Archives
+- Nested Archive Extraction
+- Multi-stage File Processing
 ## Linux Streams
 
 - Standard Input (stdin)
@@ -241,11 +280,12 @@ base64
 | Bandit 9 | ✅ |
 | Bandit 10 | ✅ |
 | Bandit 11 | ✅ |
+| Bandit 12 | ✅ |
 
 ### Current Progress
 
 ```text
-Current Level : Bandit Level 12
+Current Level : Bandit Level 13
 ```
 
 ---
@@ -272,7 +312,16 @@ Successfully completed practical exercises involving:
 - Output Redirection
 - Error Redirection
 - Standard Stream Experiments
-- OverTheWire Bandit Levels 0–11
+- Binary File Inspection using strings
+- Hexadecimal Processing using xxd
+- Binary Reconstruction
+- File Signature Investigation
+- Working with gzip Archives
+- Working with bzip2 Archives
+- Working with tar Archives
+- Multi-layer Archive Extraction
+- Practical Linux Investigation Workflow
+- OverTheWire Bandit Levels 0–12
 
 ---
 
@@ -280,31 +329,32 @@ Successfully completed practical exercises involving:
 
 | Category | Count |
 |----------|------:|
-| 📓 Journals | **12** |
-| 🧪 Labs | **7** |
-| 📘 Notes | **7** |
+| 📓 Journals | **13** |
+| 🧪 Labs | **8** |
+| 📘 Notes | **8** |
 | 📄 README | **1** |
-| 📷 Screenshots | **15+** |
+| 📷 Screenshots | **17+** |
 
 ---
 
 ## Current Progress Summary
 
 ```text
-Learning Days      : 12
-Bandit Completed   : 11 Levels
-Current Level      : Bandit Level 12
-Linux Commands     : 24+
-Concepts Learned   : 35+
+Learning Days      : 13
+Bandit Completed   : 12 Levels
+Current Level      : Bandit Level 13
+Linux Commands     : 30+
+Concepts Learned   : 45+
 Repository Files   : Growing Daily
 ```
+
 ---
 
 # 📈 Learning Statistics
 
 ## Completed Learning Days
 
-**12**
+**13**
 
 ---
 
@@ -312,17 +362,17 @@ Repository Files   : Growing Daily
 
 Levels Completed:
 
-**12 (Bandit 0 → Bandit 11)**
+**13 (Bandit 0 → Bandit 12)**
 
 Current Level:
 
-**Bandit Level 12**
+**Bandit Level 13**
 
 ---
 
 ## Linux Commands Learned
 
-**20+ Commands**
+**30+ Commands**
 
 Including:
 
@@ -349,42 +399,49 @@ Including:
 - strings
 - file
 - stat
+- xxd
 - base64
+- gzip
+- gunzip
+- bzip2
+- bunzip2
+- tar
 
 ---
 
 ## Practical Labs Completed
 
-**7**
+**8**
 
 ---
 
 ## Theory Notes Written
 
-**7**
+**8**
 
 ---
 
 ## Daily Journals Written
 
-**12**
+**13**
 
 ---
 
 ## Total Repository Files
 
 ```text
-Journal Files : 12
-Lab Files     : 7
-Notes Files   : 7
+Journal Files : 13
+Lab Files     : 8
+Notes Files   : 8
 README        : 1
+Assets        : Growing Daily
 ```
 
 ---
 
 ## Approximate Learning Hours
 
-**28–30 Hours**
+**31–33 Hours**
 
 Average:
 
@@ -422,6 +479,16 @@ Average:
 
 ✅ Base64 Decoding
 
+✅ Hexadecimal Processing
+
+✅ Binary Reconstruction
+
+✅ File Signature Analysis
+
+✅ Archive Extraction
+
+✅ Compression Utilities
+
 ---
 
 ### Problem Solving
@@ -431,6 +498,8 @@ Average:
 - Debugging command errors
 - Breaking large problems into smaller steps
 - Practical terminal experimentation
+- Identifying unknown file types
+- Solving multi-stage extraction workflows
 
 ---
 
@@ -441,69 +510,91 @@ Average:
 - OverTheWire Progress
 - Terminal Confidence
 - Practical Investigation Skills
-
----
-
+- Binary File Analysis
+- Linux Forensics Fundamentals
 # 🎯 Current Goal
 
-Build a strong Linux foundation before moving into networking, scripting, web security, cryptography, reverse engineering, and practical cybersecurity.
+Build a strong Linux foundation before moving into Networking, Bash Scripting, Python, Web Security, Cryptography, Reverse Engineering, Digital Forensics, OSINT and practical cybersecurity.
 
-Current objectives:
+## Current Objectives
 
 - Complete the OverTheWire Bandit series.
-- Develop confidence with Linux command-line tools.
-- Build consistent GitHub documentation.
-- Maintain daily practical learning.
-- Strengthen problem-solving rather than memorizing commands.
-- Prepare for future cybersecurity competitions and projects.
+- Build confidence with Linux command-line tools.
+- Understand Linux internals instead of memorizing commands.
+- Maintain consistent GitHub documentation.
+- Perform practical labs every day.
+- Strengthen logical problem-solving skills.
+- Prepare for cybersecurity competitions and future projects.
 
 ---
 
 # 📅 Latest Update
 
-## ✅ Day 12 Completed
+## ✅ Day 13 Completed
 
-Today's focus was understanding how Linux handles output and error streams while continuing practical Linux command-line development.
+Today's focus was understanding how binary data is represented in Linux, how hexadecimal can be converted back into binary, and how Linux handles compressed archives. This was one of the most practical learning sessions so far because it combined several Linux tools into one complete workflow.
 
-Topics covered:
+### Topics Covered
 
-- Standard Input (stdin)
-- Standard Output (stdout)
-- Standard Error (stderr)
-- Output Redirection (`>`)
-- Error Redirection (`2>`)
-- Combining practical Linux commands
-- Recursive searching using `find`
-- Practical file generation
-- Character translation using `tr`
-- Understanding the ROT13 substitution cipher
-- Successfully completed OverTheWire Bandit Level 11
+- Hexadecimal Representation
+- Binary Reconstruction using `xxd`
+- File Identification using `file`
+- Understanding File Signatures
+- gzip Compression
+- gunzip Extraction
+- bzip2 Compression
+- bunzip2 Extraction
+- tar Archives
+- Multi-layer Archive Extraction
+- Linux Investigation Workflow
+- Successfully completed OverTheWire Bandit Level 12
 
 ---
 
-# ⭐ Day 12 Highlights
+# ⭐ Day 13 Highlights
 
-### Linux
+## Linux
 
-- Learned how Linux separates stdout and stderr internally.
-- Practiced redirecting output into files.
-- Redirected error messages into dedicated files.
-- Understood why `2>/dev/null` suppresses only error messages.
+- Learned how hexadecimal represents binary data.
+- Converted hexadecimal dumps back into binary using `xxd`.
+- Investigated unknown files using the `file` command.
+- Learned that Linux determines file types by reading file signatures rather than relying on file extensions.
+- Worked with gzip, bzip2 and tar archives.
+- Successfully extracted multiple nested compressed files.
 
-### Character Translation
+---
 
-- Learned how the `tr` command performs character-by-character translation.
-- Understood alphabet ranges (`A-Z`, `a-z`).
-- Learned how ROT13 maps one alphabet onto another.
-- Distinguished between encoding, encryption, and substitution.
+## Practical Learning
 
-### OverTheWire
+Today's practical session introduced a structured Linux workflow:
 
-Successfully completed **Bandit Level 11** by understanding the ROT13 substitution cipher and using the Linux `tr` command to translate encoded text back to its original form.
+```text
+Unknown File
+      ↓
+Identify using file
+      ↓
+Rename if Required
+      ↓
+Extract
+      ↓
+Repeat
+      ↓
+Recover Original Data
+```
 
-### Biggest Learning
+Instead of guessing commands, I learned how Linux administrators and cybersecurity professionals systematically investigate unknown files.
 
-One Linux command can often solve many different problems when its underlying concept is understood. Rather than memorizing commands, learning how Linux processes input and output makes it easier to solve unfamiliar challenges.
+---
+
+## OverTheWire
+
+Successfully completed **Bandit Level 12** by converting hexadecimal data back into binary and repeatedly identifying and extracting nested compressed files until recovering the final password.
+
+---
+
+## Biggest Learning
+
+One command alone rarely solves an entire problem. Real Linux workflows involve combining several small utilities together. Understanding how each command fits into the workflow is much more valuable than memorizing individual commands.
 
 ---
 
@@ -511,33 +602,103 @@ One Linux command can often solve many different problems when its underlying co
 
 ## Phase 1 — Linux Foundations (Current)
 
+### Completed
+
 - Linux Terminal
-- File System
+- Linux File System
+- Navigation
+- File Management
 - Permissions
+- Searching
 - Text Processing
 - Standard Streams
 - Redirection
-- OverTheWire Bandit
-
-### Next Topics
-
+- Pipelines
+- Character Translation
+- Base64
+- ROT13
 - Hexadecimal
-- Binary Data
-- xxd
-- File Comparison
-- Compression
-- Archives
+- Binary Reconstruction
+- File Investigation
+- Compression Utilities
+- Archive Extraction
+
+---
+
+## Upcoming Topics
+
 - Shell Variables
-- Bash Scripting
+- Environment Variables
+- Bash History
+- Wildcards
+- File Comparison (`diff`, `cmp`)
+- Symbolic & Hard Links
+- Bash Scripting Basics
+- Process Management
+- Package Management
+- Networking Fundamentals
 
 ---
 
 # 📌 Next Goal
 
-- Complete OverTheWire Bandit Level 12.
+- Complete OverTheWire Bandit Level 13.
+- Learn SSH private key authentication.
 - Continue learning Linux concepts alongside practical exercises.
 - Begin weekly revision sessions starting on **Day 15 (Sunday)** while continuing new lessons.
-- Continue documenting all learning in GitHub using journals, labs, notes, and screenshots.
+- Expand GitHub documentation with detailed journals, labs and notes.
+- Strengthen command-line confidence through daily practice.
+
+---
+
+# 📅 Weekly Revision Plan
+
+Beginning from **Day 15**, every Sunday will include:
+
+- Short revision of every concept learned so far.
+- Review of important Linux commands.
+- Practical revision exercises.
+- Reflection on mistakes made during the week.
+- Question-based self-assessment.
+- Continue the next scheduled lesson after revision.
+- Update GitHub with weekly learning summary.
+
+---
+
+# 🎯 Long-Term Roadmap
+
+## Linux Fundamentals
+⬜ Complete
+
+## Networking Fundamentals
+⬜ Upcoming
+
+## Bash Scripting
+⬜ Upcoming
+
+## Python for Cybersecurity
+⬜ Upcoming
+
+## Web Security
+⬜ Upcoming
+
+## Cryptography
+⬜ Upcoming
+
+## Reverse Engineering
+⬜ Upcoming
+
+## Digital Forensics
+⬜ Upcoming
+
+## OSINT
+⬜ Upcoming
+
+## Active CTF Practice
+⬜ Upcoming
+
+## Cybersecurity Projects
+⬜ Upcoming
 
 ---
 
@@ -545,9 +706,29 @@ One Linux command can often solve many different problems when its underlying co
 
 I am documenting this journey to build genuine technical skills through consistent daily practice.
 
-Rather than collecting certificates, my focus is on understanding concepts, experimenting in the terminal, solving practical problems, and recording both successes and mistakes.
+Rather than collecting certificates, my focus is on understanding concepts, experimenting in the terminal, solving practical problems, documenting mistakes, and steadily improving my problem-solving ability.
 
-This repository represents my long-term cybersecurity learning portfolio and tracks my progress from Linux fundamentals toward advanced cybersecurity topics.
+Every journal, note, lab, screenshot and project in this repository represents a real learning session completed through hands-on practice.
+
+My objective is not simply to finish courses, but to develop the skills required to solve unfamiliar cybersecurity problems with confidence.
+
+---
+
+# 📌 Repository Mission
+
+This repository is my personal cybersecurity learning portfolio.
+
+It documents:
+
+- Every learning day
+- Every Linux command
+- Every practical lab
+- Every concept learned
+- Every OverTheWire level completed
+- Every reflection
+- Every improvement throughout the journey
+
+As the journey progresses, this repository will expand to include networking, scripting, Python, web security, cryptography, reverse engineering, digital forensics, OSINT, Capture The Flag write-ups and cybersecurity projects.
 
 ---
 
