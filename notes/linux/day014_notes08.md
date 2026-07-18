@@ -3,7 +3,7 @@
 **Title:** Introduction to SSH Authentication, Linux File Permissions & Secure Remote Access
 
 **Description:**  
-Thesse notes summarize the concepts introduced during Day 14 of my cybersecurity learning journey. Today's focus was on Linux file permissions, SSH authentication, private key management, and understanding why secure authentication is used instead of passwords in modern systems. While working through OverTheWire Bandit Level 13, I realized that understanding concepts is more important than simply completing challenges. These notes document today's learning and also identify the concepts that require deeper study before moving forward.
+These notes summarize the concepts introduced during Day 14 of my cybersecurity learning journey. Today's focus was on Linux file permissions, SSH authentication, private key management, and understanding why secure authentication is used instead of passwords in modern systems. While working through OverTheWire Bandit Level 13, I realized that understanding concepts is more important than simply completing challenges. These notes document today's learning and also identify the concepts that require deeper study before moving forward.
 
 ---
 
