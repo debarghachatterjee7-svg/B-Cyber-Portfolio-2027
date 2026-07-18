@@ -2,29 +2,54 @@
 
 Welcome to my cybersecurity learning journey.
 
-I am documenting my progress every day as I prepare for cybersecurity competitions, CTFs, practical Linux administration, networking, programming, and cybersecurity projects.
+I am documenting my progress every day as I prepare for cybersecurity competitions, CTFs, Linux administration, networking, scripting, programming, and practical cybersecurity.
 
-This repository serves as a long-term portfolio showcasing my daily learning, practical labs, notes, experiments, reflections, and projects as I build a strong foundation in cybersecurity.
+This repository is my long-term learning portfolio where I record everything I study, practice, experiment with, and discover while building a strong cybersecurity foundation from scratch.
+
+Unlike traditional repositories that only contain projects, this repository also documents my complete learning process, practical labs, research, notes, daily reflections, and roadmap.
+
+The primary objective is to build genuine technical skills through consistent daily learning and practical experimentation rather than collecting certificates.
+
+---
+
+# 🎯 Long-Term Goal
+
+My ultimate objective is to develop a strong foundation in:
+
+- Linux
+- Networking
+- Python
+- Cryptography
+- Web Security
+- Reverse Engineering
+- Digital Forensics
+- Malware Analysis
+- Binary Exploitation
+- Cloud Security
+- Practical Cybersecurity
+
+This repository will continue growing over the next **10 months** as I prepare for cybersecurity competitions and the IIT Kanpur BCYBER program.
 
 ---
 
 # 📅 Learning Timeline
 
-| Day | Topic |
-|------|-------|
-| ✅ Day 1 | Linux Setup & First CTF Challenge |
+| Day | Topics Covered |
+|------|----------------|
+| ✅ Day 1 | Linux Environment Setup & Introduction to OverTheWire |
 | ✅ Day 2 | Linux Navigation & File System Basics |
-| ✅ Day 3 | Linux File Handling & OverTheWire Bandit Level 3 |
-| ✅ Day 4 | Linux Permissions & Hidden Files |
-| ✅ Day 5 | Linux File Identification & Investigation |
-| ✅ Day 6 | Linux Search Commands (`grep`, `wc`, `find`) |
-| ✅ Day 7 | Advanced Search & Output Redirection (`2>/dev/null`) |
-| ✅ Day 8 | Text Processing (`cut`, Delimiters, `grep`) |
-| ✅ Day 9 | Linux Pipelines, `sort` & `uniq` |
+| ✅ Day 3 | File Handling & Directory Management |
+| ✅ Day 4 | Hidden Files & Linux Permissions |
+| ✅ Day 5 | File Investigation using `file` |
+| ✅ Day 6 | Searching Files using `find` |
+| ✅ Day 7 | `grep`, `wc`, Error Redirection |
+| ✅ Day 8 | `cut` Command & Data Extraction |
+| ✅ Day 9 | Pipelines, `sort`, `uniq` |
 | ✅ Day 10 | Binary Text Inspection using `strings` |
-| ✅ Day 11 | Character Translation (`tr`) & Base64 |
-| ✅ Day 12 | Standard Streams, Redirection & ROT13 (`tr`) |
-| ✅ Day 13 | Hexadecimal Processing, Binary Reconstruction & Archive Extraction |
+| ✅ Day 11 | Base64 & Character Translation (`tr`) |
+| ✅ Day 12 | Standard Streams, Redirection & ROT13 |
+| ✅ Day 13 | Hexadecimal, Binary Files, `xxd` & Binary Inspection |
+| ✅ Day 14 | Linux File Permissions, SSH Authentication & Secure Remote Access |
 
 ---
 
@@ -33,48 +58,49 @@ This repository serves as a long-term portfolio showcasing my daily learning, pr
 ```text
 Cybersecurity-Journey/
 │
-├── assets/            # Screenshots & Images
-├── certificates/      # Future Certifications
-├── CTF/               # CTF Progress & Writeups
-├── journal/           # Daily Learning Journals
-├── labs/              # Practical Linux Labs
-├── notes/             # Daily Concept Notes
-├── projects/          # Future Cybersecurity Projects
-├── research/          # Experiments & Research
+├── assets/              # Screenshots & Images
+├── certificates/        # Future Certifications
+├── CTF/                 # OverTheWire & Future CTF Writeups
+├── journal/             # Daily Learning Journals
+├── labs/                # Practical Linux Labs
+├── notes/               # Daily Theory Notes
+├── projects/            # Cybersecurity Projects
+├── research/            # Experiments & Research
+├── scripts/             # Automation Scripts (Future)
+├── tools/               # Custom Security Tools (Future)
 └── README.md
 ```
 
 ---
 
-# 🎯 Current Progress
+# 🚀 Current Learning Phase
 
-## Linux Fundamentals
+## Phase 1 — Linux Fundamentals
 
-Completed:
+Current Status: **In Progress**
 
-- Terminal Navigation
-- File & Directory Management
+Topics Completed:
+
+- Linux Terminal Navigation
+- Linux File System
+- Directory Management
 - Hidden Files
 - File Permissions
-- File Ownership
-- File Identification
+- File Investigation
 - Searching Files
 - Searching Text
 - File Statistics
-- Command Pipelines
+- Pipelines
 - Character Translation
-- Base64 Encoding
 - Base64 Decoding
 - Standard Streams
 - Output Redirection
 - Error Redirection
-- Linux Investigation Techniques
-- Hexadecimal Representation
-- Binary Reconstruction
-- File Signature Analysis
-- Linux Compression Utilities
-- Archive Extraction
-- Multi-layer File Processing
+- Binary Data
+- Hexadecimal
+- `xxd`
+- Linux Permission Management
+- SSH Authentication (Introduction)
 
 ---
 
@@ -108,7 +134,7 @@ nano
 
 ---
 
-## File Investigation
+## Investigation
 
 ```text
 file
@@ -124,6 +150,7 @@ xxd
 ```text
 grep
 find
+wc
 ```
 
 ---
@@ -131,7 +158,6 @@ find
 ## Text Processing
 
 ```text
-wc
 sort
 uniq
 cut
@@ -141,23 +167,21 @@ base64
 
 ---
 
-## Compression & Archives
+## Permissions & Authentication
 
 ```text
-gzip
-gunzip
-bzip2
-bunzip2
-tar
+chmod
+ssh
 ```
 
 ---
 
-## Redirection & Pipelines
+## Redirection
 
 ```text
 >
 >>
+<
 |
 2>
 2>/dev/null
@@ -165,24 +189,26 @@ tar
 
 ---
 
-# 📚 Concepts Learned
+# 📖 Concepts Learned
 
-## Linux Basics
+## Linux Fundamentals
 
 - Linux File System
-- Relative & Absolute Paths
+- Absolute Paths
+- Relative Paths
 - Hidden Files
-- Terminal Navigation
+- Directory Navigation
 
 ---
 
 ## File Management
 
-- Creating Files
+- File Creation
+- File Deletion
 - Copying Files
 - Moving Files
-- Removing Files
 - Editing Files
+- Viewing Files
 
 ---
 
@@ -191,76 +217,64 @@ tar
 - Owner
 - Group
 - Others
-- Permission Structure
-- Hidden Files
+- Read Permission
+- Write Permission
+- Execute Permission
+- Permission Bits
+- File Ownership
 
 ---
 
-## Searching
+## Searching & Investigation
 
-- Searching Files
-- Searching Text
-- Searching by Name
-- Searching by Size
-- Searching by Owner
-- Searching by Permissions
+- grep
+- find
+- file
+- stat
+- strings
+- xxd
 
 ---
 
 ## Text Processing
 
-- grep
-- wc
 - cut
 - sort
 - uniq
-- strings
 - tr
+- base64
+- wc
 
 ---
 
-## Encoding & Translation
+## Binary Data
 
-- Base64 Encoding
-- Base64 Decoding
-- ROT13
-- Character Mapping
-- Character Translation
-- Hexadecimal Representation
-- Binary Reconstruction
+- ASCII
+- Binary
+- Hexadecimal
+- Hex Dump
+- Binary Inspection
 
 ---
 
-## File Investigation
-
-- File Signatures
-- Magic Bytes
-- File Identification using `file`
-- Binary Inspection using `xxd`
-
----
-
-## Compression & Archives
-
-- gzip Compression
-- bzip2 Compression
-- tar Archives
-- Nested Archive Extraction
-- Multi-stage File Processing
 ## Linux Streams
 
-- Standard Input (stdin)
-- Standard Output (stdout)
-- Standard Error (stderr)
+- stdin
+- stdout
+- stderr
+- Output Redirection
+- Error Redirection
 
 ---
 
-## Redirection
+## SSH (Introduction)
 
-- Output Redirection (`>`)
-- Append Redirection (`>>`)
-- Error Redirection (`2>`)
-- Error Suppression (`2>/dev/null`)
+- Secure Shell
+- Remote Login
+- Private Keys
+- Public Keys (Introduction)
+- Secure Authentication
+- Linux Security Basics
 
 ---
 
@@ -281,11 +295,12 @@ tar
 | Bandit 10 | ✅ |
 | Bandit 11 | ✅ |
 | Bandit 12 | ✅ |
+| Bandit 13 | ✅ |
 
 ### Current Progress
 
 ```text
-Current Level : Bandit Level 13
+Current Level : Bandit Level 14
 ```
 
 ---
@@ -294,442 +309,597 @@ Current Level : Bandit Level 13
 
 Successfully completed practical exercises involving:
 
-- Linux Terminal Navigation
-- Directory Management
-- File Creation & Modification
-- Hidden File Investigation
-- Permission Analysis
-- File Identification
-- Recursive File Searching
-- Text Searching using grep
-- File Statistics using wc
-- Data Extraction using cut
-- Sorting Data
-- Removing Duplicate Lines
-- Character Translation using tr
+- Linux Navigation
+- File Handling
+- Hidden Files
+- Linux Permissions
+- Searching Files
+- Searching Text
+- File Investigation
+- Binary Inspection
+- Hexadecimal Analysis
 - Base64 Decoding
-- Linux Pipelines
-- Output Redirection
-- Error Redirection
-- Standard Stream Experiments
-- Binary File Inspection using strings
-- Hexadecimal Processing using xxd
-- Binary Reconstruction
-- File Signature Investigation
-- Working with gzip Archives
-- Working with bzip2 Archives
-- Working with tar Archives
-- Multi-layer Archive Extraction
-- Practical Linux Investigation Workflow
-- OverTheWire Bandit Levels 0–12
-
----
-
+- Character Translation
+- Pipelines
+- Redirection
+- Linux Streams
+- chmod Practice
+- SSH Authentication Investigation
+- OverTheWire Bandit Levels 0–13
 # 📂 Repository Statistics
 
 | Category | Count |
 |----------|------:|
-| 📓 Journals | **13** |
+| 📓 Journals | **14** |
 | 🧪 Labs | **8** |
 | 📘 Notes | **8** |
 | 📄 README | **1** |
-| 📷 Screenshots | **17+** |
+| 📷 Screenshots | **18+** |
+| 💻 Projects | **0 (Planned)** |
+| 🛠️ Scripts | **0 (Planned)** |
 
 ---
 
-## Current Progress Summary
+# 📊 Current Progress Summary
 
 ```text
-Learning Days      : 13
-Bandit Completed   : 12 Levels
-Current Level      : Bandit Level 13
+Learning Days      : 14
+Bandit Completed   : 14 Levels (Bandit 0 → Bandit 13)
+Current Level      : Bandit Level 14
 Linux Commands     : 30+
-Concepts Learned   : 45+
-Repository Files   : Growing Daily
+Linux Concepts     : 45+
+Practical Labs     : 8
+Theory Notes       : 8
+Daily Journals     : 14
+Approx. Learning   : 34–36 Hours
+Repository Status  : Growing Daily
 ```
 
 ---
 
 # 📈 Learning Statistics
 
-## Completed Learning Days
+## 📅 Daily Progress
 
-**13**
-
----
-
-## OverTheWire Progress
-
-Levels Completed:
-
-**13 (Bandit 0 → Bandit 12)**
-
-Current Level:
-
-**Bandit Level 13**
+| Metric | Progress |
+|--------|----------|
+| Learning Days | **14** |
+| Journal Entries | **14** |
+| Practical Labs | **8** |
+| Theory Notes | **8** |
+| GitHub Updates | **Daily** |
+| Repository Growth | **Continuous** |
 
 ---
 
-## Linux Commands Learned
+## 🏴 OverTheWire Progress
 
-**30+ Commands**
+Completed:
 
-Including:
+- ✅ Bandit Level 0
+- ✅ Bandit Level 1
+- ✅ Bandit Level 2
+- ✅ Bandit Level 3
+- ✅ Bandit Level 4
+- ✅ Bandit Level 5
+- ✅ Bandit Level 6
+- ✅ Bandit Level 7
+- ✅ Bandit Level 8
+- ✅ Bandit Level 9
+- ✅ Bandit Level 10
+- ✅ Bandit Level 11
+- ✅ Bandit Level 12
+- ✅ Bandit Level 13
 
-- pwd
-- ls
-- cd
-- mkdir
-- touch
-- cp
-- mv
-- rm
-- cat
-- less
-- head
-- tail
-- nano
-- grep
-- wc
-- find
-- sort
-- uniq
-- cut
-- tr
-- strings
-- file
-- stat
-- xxd
-- base64
-- gzip
-- gunzip
-- bzip2
-- bunzip2
-- tar
-
----
-
-## Practical Labs Completed
-
-**8**
-
----
-
-## Theory Notes Written
-
-**8**
-
----
-
-## Daily Journals Written
-
-**13**
-
----
-
-## Total Repository Files
+Current Challenge:
 
 ```text
-Journal Files : 13
-Lab Files     : 8
-Notes Files   : 8
-README        : 1
-Assets        : Growing Daily
+Bandit Level 14
 ```
 
 ---
 
-## Approximate Learning Hours
+# 💪 Skills Built So Far
 
-**31–33 Hours**
+## 🐧 Linux Skills
 
-Average:
+✅ Terminal Navigation
 
-**2–3 Hours Every Day**
-
----
-
-# 🏆 Skills Built
-
-### Linux
-
-✅ File System Navigation
-
-✅ File Management
-
-✅ Permissions
+✅ File & Directory Management
 
 ✅ Hidden Files
 
-✅ File Identification
+✅ Linux Permissions
 
-✅ File Searching
+✅ File Ownership
 
-✅ Text Searching
+✅ File Investigation
+
+✅ Searching Files
+
+✅ Searching Text
+
+✅ Binary File Inspection
+
+✅ Hexadecimal Analysis
+
+✅ Character Translation
+
+✅ Base64 Encoding & Decoding
+
+✅ Standard Streams
 
 ✅ Output Redirection
 
 ✅ Error Redirection
 
-✅ Standard Streams
+✅ Linux Pipelines
 
-✅ Pipelines
+✅ Permission Management (`chmod`)
 
-✅ Character Translation
-
-✅ Base64 Decoding
-
-✅ Hexadecimal Processing
-
-✅ Binary Reconstruction
-
-✅ File Signature Analysis
-
-✅ Archive Extraction
-
-✅ Compression Utilities
+✅ SSH Introduction
 
 ---
 
-### Problem Solving
+## 🧠 Problem Solving Skills
 
 - Reading Linux documentation
 - Understanding command syntax
-- Debugging command errors
-- Breaking large problems into smaller steps
-- Practical terminal experimentation
-- Identifying unknown file types
-- Solving multi-stage extraction workflows
+- Debugging Linux commands
+- Identifying errors using terminal output
+- Breaking complex problems into smaller tasks
+- Practical experimentation before applying concepts
+- Learning through CTF challenges
+- Developing logical troubleshooting techniques
 
 ---
 
-### Cybersecurity Foundation
+## 🔐 Cybersecurity Foundation
 
-- Linux Command Line
+Current cybersecurity concepts learned include:
+
+- Linux Fundamentals
+- Linux Permissions
+- File Investigation
+- Secure Authentication Basics
+- Binary & Hexadecimal Data
+- Base64 Encoding
+- Character Translation (ROT13)
+- Linux Streams
+- Output Redirection
+- Error Handling
+- Introductory SSH Authentication
+- Practical Terminal Usage
 - CTF Methodology
-- OverTheWire Progress
-- Terminal Confidence
-- Practical Investigation Skills
-- Binary File Analysis
-- Linux Forensics Fundamentals
+
+---
+
 # 🎯 Current Goal
 
-Build a strong Linux foundation before moving into Networking, Bash Scripting, Python, Web Security, Cryptography, Reverse Engineering, Digital Forensics, OSINT and practical cybersecurity.
+My current objective is to build an extremely strong Linux foundation before moving into networking, scripting, cryptography, web security, reverse engineering, malware analysis, digital forensics, and advanced cybersecurity.
 
-## Current Objectives
+Current priorities:
 
-- Complete the OverTheWire Bandit series.
-- Build confidence with Linux command-line tools.
-- Understand Linux internals instead of memorizing commands.
-- Maintain consistent GitHub documentation.
-- Perform practical labs every day.
-- Strengthen logical problem-solving skills.
-- Prepare for cybersecurity competitions and future projects.
+- Complete Linux Fundamentals.
+- Master every Linux command through practical usage.
+- Understand every concept before applying it.
+- Complete OverTheWire Bandit with proper conceptual understanding.
+- Build a professional GitHub learning portfolio.
+- Develop problem-solving skills instead of memorizing commands.
+- Prepare for the IIT Kanpur BCYBER selection process.
 
 ---
 
 # 📅 Latest Update
 
-## ✅ Day 13 Completed
+## ✅ Day 14 Completed Successfully
 
-Today's focus was understanding how binary data is represented in Linux, how hexadecimal can be converted back into binary, and how Linux handles compressed archives. This was one of the most practical learning sessions so far because it combined several Linux tools into one complete workflow.
+Today's learning focused on Linux permissions, SSH authentication, and improving my overall learning methodology.
 
-### Topics Covered
+Topics covered today included:
 
-- Hexadecimal Representation
-- Binary Reconstruction using `xxd`
-- File Identification using `file`
-- Understanding File Signatures
-- gzip Compression
-- gunzip Extraction
-- bzip2 Compression
-- bunzip2 Extraction
-- tar Archives
-- Multi-layer Archive Extraction
-- Linux Investigation Workflow
-- Successfully completed OverTheWire Bandit Level 12
+- Linux Permission Management
+- `chmod` Command
+- Secure File Permissions
+- SSH Authentication (Introduction)
+- Private Key Authentication
+- SSH Debugging
+- Practical Linux Permission Experiments
+- OverTheWire Bandit Level 13
+- Secure Remote Login Concepts
 
----
-
-# ⭐ Day 13 Highlights
-
-## Linux
-
-- Learned how hexadecimal represents binary data.
-- Converted hexadecimal dumps back into binary using `xxd`.
-- Investigated unknown files using the `file` command.
-- Learned that Linux determines file types by reading file signatures rather than relying on file extensions.
-- Worked with gzip, bzip2 and tar archives.
-- Successfully extracted multiple nested compressed files.
+Unlike previous days, today's session highlighted the importance of understanding concepts before attempting practical cybersecurity challenges.
 
 ---
 
-## Practical Learning
+# ⭐ Day 14 Highlights
 
-Today's practical session introduced a structured Linux workflow:
+### 🔐 Linux Security
 
-```text
-Unknown File
-      ↓
-Identify using file
-      ↓
-Rename if Required
-      ↓
-Extract
-      ↓
-Repeat
-      ↓
-Recover Original Data
-```
-
-Instead of guessing commands, I learned how Linux administrators and cybersecurity professionals systematically investigate unknown files.
+- Learned why Linux protects sensitive files using permission bits.
+- Practiced modifying permissions using `chmod`.
+- Understood why SSH private keys require restricted permissions.
+- Investigated Linux ownership and secure authentication.
 
 ---
 
-## OverTheWire
+### 🖥️ Practical Linux
 
-Successfully completed **Bandit Level 12** by converting hexadecimal data back into binary and repeatedly identifying and extracting nested compressed files until recovering the final password.
+Successfully completed practical exercises involving:
 
----
-
-## Biggest Learning
-
-One command alone rarely solves an entire problem. Real Linux workflows involve combining several small utilities together. Understanding how each command fits into the workflow is much more valuable than memorizing individual commands.
-
----
-
-# 🚀 Current Roadmap
-
-## Phase 1 — Linux Foundations (Current)
-
-### Completed
-
-- Linux Terminal
-- Linux File System
-- Navigation
-- File Management
-- Permissions
-- Searching
-- Text Processing
-- Standard Streams
-- Redirection
-- Pipelines
-- Character Translation
-- Base64
-- ROT13
-- Hexadecimal
-- Binary Reconstruction
-- File Investigation
-- Compression Utilities
-- Archive Extraction
+- File permission management
+- Permission verification
+- File renaming
+- File deletion
+- SSH authentication testing
+- Linux troubleshooting
+- Authentication debugging
 
 ---
 
-## Upcoming Topics
+### 🧠 Biggest Learning
 
-- Shell Variables
-- Environment Variables
-- Bash History
-- Wildcards
-- File Comparison (`diff`, `cmp`)
-- Symbolic & Hard Links
-- Bash Scripting Basics
+Today's most valuable lesson was realizing that CTF challenges should not be used to learn concepts from scratch.
+
+Instead, concepts should first be studied thoroughly, practiced locally, revised, and then applied through practical CTF challenges.
+
+This change in learning strategy will improve long-term understanding and better prepare me for real-world cybersecurity.
+
+---
+
+### 🚀 Repository Growth
+
+After today's update, the repository now contains:
+
+- 14 Learning Journals
+- 8 Practical Labs
+- 8 Theory Notes
+- 18+ Screenshots
+- Updated README
+- Continuous daily documentation
+
+The repository is gradually becoming a comprehensive cybersecurity learning portfolio rather than simply a collection of notes.
+# 🛣️ Current Learning Roadmap
+
+This roadmap outlines the complete journey I plan to follow over the next several months. Rather than rushing through topics, I will master each concept with theory, practical exercises, revision, and real-world application before moving forward.
+
+---
+
+# 📍 Phase 1 — Linux Foundations (Current)
+
+**Status:** 🟢 In Progress
+
+Completed Topics:
+
+- ✅ Linux Installation (Ubuntu WSL)
+- ✅ Linux Terminal Basics
+- ✅ File & Directory Navigation
+- ✅ Hidden Files
+- ✅ File Management
+- ✅ Linux Permissions
+- ✅ File Investigation
+- ✅ Searching Files
+- ✅ Searching Text
+- ✅ File Statistics
+- ✅ Standard Streams
+- ✅ Redirection
+- ✅ Linux Pipelines
+- ✅ Character Translation
+- ✅ Base64
+- ✅ Binary Files
+- ✅ Hexadecimal
+- ✅ `xxd`
+- ✅ Introductory SSH Authentication
+
+Topics Remaining:
+
+- ⏳ Complete SSH
+- ⏳ SCP
+- ⏳ SSH Configuration Files
+- ⏳ SSH Keys
+- ⏳ Bash Variables
+- ⏳ Environment Variables
+- ⏳ Shell Expansion
+- ⏳ Bash Scripting
+- ⏳ Linux Processes
+- ⏳ Job Control
+- ⏳ Cron Jobs
+- ⏳ Package Management
+- ⏳ Networking Basics in Linux
+
+---
+
+# 📚 My Learning Method
+
+For every new topic I follow the same process:
+
+### 1️⃣ Learn Theory
+
+- Understand the concept deeply.
+- Learn why it exists.
+- Study where it is used.
+- Learn advantages and limitations.
+
+---
+
+### 2️⃣ Perform Practical Labs
+
+- Practice every command.
+- Create small experiments.
+- Test different outputs.
+- Make mistakes intentionally.
+- Observe Linux behaviour.
+
+---
+
+### 3️⃣ Write Documentation
+
+For every learning day I create:
+
+- 📓 Journal
+- 🧪 Practical Lab
+- 📘 Theory Notes
+
+This ensures I retain knowledge while building a professional GitHub portfolio.
+
+---
+
+### 4️⃣ Solve Practical Challenge
+
+Only after fully understanding the topic do I attempt:
+
+- OverTheWire
+- CTF Challenges
+- Linux Exercises
+
+This approach prevents memorization and builds genuine technical understanding.
+
+---
+
+# 🎯 Future Learning Roadmap
+
+## 🐧 Linux
+
+- Advanced Bash
+- Shell Scripting
 - Process Management
 - Package Management
-- Networking Fundamentals
+- Services
+- System Logs
+- Networking Commands
+- SSH Administration
+- Cron Jobs
+- Disk Management
 
 ---
 
-# 📌 Next Goal
+## 🌐 Networking
 
-- Complete OverTheWire Bandit Level 13.
-- Learn SSH private key authentication.
-- Continue learning Linux concepts alongside practical exercises.
-- Begin weekly revision sessions starting on **Day 15 (Sunday)** while continuing new lessons.
-- Expand GitHub documentation with detailed journals, labs and notes.
-- Strengthen command-line confidence through daily practice.
+After Linux I will study:
 
----
-
-# 📅 Weekly Revision Plan
-
-Beginning from **Day 15**, every Sunday will include:
-
-- Short revision of every concept learned so far.
-- Review of important Linux commands.
-- Practical revision exercises.
-- Reflection on mistakes made during the week.
-- Question-based self-assessment.
-- Continue the next scheduled lesson after revision.
-- Update GitHub with weekly learning summary.
+- OSI Model
+- TCP/IP
+- IPv4
+- IPv6
+- MAC Addressing
+- ARP
+- DNS
+- DHCP
+- HTTP
+- HTTPS
+- FTP
+- SSH
+- SMTP
+- POP3
+- IMAP
 
 ---
 
-# 🎯 Long-Term Roadmap
+## 🐍 Python
 
-## Linux Fundamentals
-⬜ Complete
+Topics planned:
 
-## Networking Fundamentals
-⬜ Upcoming
-
-## Bash Scripting
-⬜ Upcoming
-
-## Python for Cybersecurity
-⬜ Upcoming
-
-## Web Security
-⬜ Upcoming
-
-## Cryptography
-⬜ Upcoming
-
-## Reverse Engineering
-⬜ Upcoming
-
-## Digital Forensics
-⬜ Upcoming
-
-## OSINT
-⬜ Upcoming
-
-## Active CTF Practice
-⬜ Upcoming
-
-## Cybersecurity Projects
-⬜ Upcoming
+- Variables
+- Loops
+- Functions
+- File Handling
+- Modules
+- Object-Oriented Programming
+- Networking Libraries
+- Automation Scripts
+- Cybersecurity Tools
 
 ---
 
-# 📖 Learning Philosophy
+## 🔒 Cryptography
 
-I am documenting this journey to build genuine technical skills through consistent daily practice.
+Topics planned:
 
-Rather than collecting certificates, my focus is on understanding concepts, experimenting in the terminal, solving practical problems, documenting mistakes, and steadily improving my problem-solving ability.
-
-Every journal, note, lab, screenshot and project in this repository represents a real learning session completed through hands-on practice.
-
-My objective is not simply to finish courses, but to develop the skills required to solve unfamiliar cybersecurity problems with confidence.
-
----
-
-# 📌 Repository Mission
-
-This repository is my personal cybersecurity learning portfolio.
-
-It documents:
-
-- Every learning day
-- Every Linux command
-- Every practical lab
-- Every concept learned
-- Every OverTheWire level completed
-- Every reflection
-- Every improvement throughout the journey
-
-As the journey progresses, this repository will expand to include networking, scripting, Python, web security, cryptography, reverse engineering, digital forensics, OSINT, Capture The Flag write-ups and cybersecurity projects.
+- Classical Ciphers
+- Caesar Cipher
+- ROT13
+- AES
+- DES
+- RSA
+- Diffie–Hellman
+- Hash Functions
+- SHA Family
+- Digital Signatures
 
 ---
 
-> **"Learning cybersecurity by building practical skills one day at a time."**
+## 🌍 Web Security
+
+Future topics include:
+
+- HTML
+- CSS
+- JavaScript Basics
+- HTTP Requests
+- Cookies
+- Sessions
+- SQL Injection
+- XSS
+- CSRF
+- File Upload Vulnerabilities
+- Authentication
+- Authorization
+- OWASP Top 10
+
+---
+
+## ⚙️ Reverse Engineering
+
+Future roadmap:
+
+- Assembly Language
+- Executables
+- ELF Files
+- PE Files
+- Ghidra
+- IDA
+- Binary Analysis
+
+---
+
+## 🔍 Digital Forensics
+
+Future learning:
+
+- Disk Analysis
+- Memory Analysis
+- Log Investigation
+- Timeline Analysis
+- Metadata
+- File Recovery
+
+---
+
+## ☁️ Cloud Security
+
+Planned topics:
+
+- AWS Basics
+- Azure Basics
+- IAM
+- Cloud Storage
+- Virtual Machines
+- Containers
+- Docker
+- Kubernetes (Introduction)
+
+---
+
+# 📅 Weekly Revision Strategy
+
+To avoid forgetting previous concepts, I will revise regularly.
+
+Every revision session will include:
+
+- Linux Commands
+- Previous Labs
+- Theory Notes
+- Journal Reflection
+- Small Practical Exercises
+- OverTheWire Revision
+
+Revision is as important as learning new topics because consistent reinforcement improves long-term retention.
+
+---
+
+# 🧩 Repository Growth Plan
+
+This repository will continue expanding with:
+
+- More Journals
+- More Labs
+- More Theory Notes
+- Linux Scripts
+- Python Programs
+- Networking Labs
+- Security Projects
+- Research Articles
+- Personal Experiments
+- Custom Cybersecurity Tools
+
+The goal is to transform this repository into a complete cybersecurity portfolio documenting my entire learning journey.
+
+---
+
+# 💡 Learning Philosophy
+
+I believe that real cybersecurity skills are built through:
+
+- Curiosity
+- Consistency
+- Practical experimentation
+- Deep conceptual understanding
+- Documentation
+- Continuous revision
+
+Rather than rushing through courses or collecting certificates, my focus is on mastering the fundamentals and applying them through real practice.
+
+---
+
+# 🚀 Long-Term Vision
+
+By the end of this roadmap, I aim to:
+
+- Build strong Linux expertise.
+- Become confident with networking.
+- Develop Python automation skills.
+- Understand cryptographic principles.
+- Solve advanced CTF challenges.
+- Create practical cybersecurity projects.
+- Build a professional GitHub portfolio.
+- Be well-prepared for the IIT Kanpur BCYBER program and future cybersecurity opportunities.
+
+---
+
+> **"Master the fundamentals, practice consistently, document everything, and let every small improvement compound into expertise."**
+# 📬 Connect With My Journey
+
+This repository is a record of my journey from a beginner to a cybersecurity professional.
+
+Every journal, lab, note, experiment, and project reflects consistent learning and continuous improvement. Rather than measuring success by certificates or completed courses, I focus on understanding concepts deeply, solving problems independently, and documenting my progress honestly.
+
+As I continue learning Linux, networking, scripting, cryptography, web security, reverse engineering, and digital forensics, this repository will continue to evolve into a comprehensive cybersecurity portfolio.
+
+---
+
+# 📌 Repository Rules
+
+To maintain consistency throughout my learning journey, I follow these principles:
+
+- Learn concepts before attempting practical challenges.
+- Perform hands-on experiments for every topic.
+- Document every day's learning.
+- Review previous topics regularly.
+- Build projects to apply theoretical knowledge.
+- Focus on understanding rather than memorization.
+- Learn from mistakes and document solutions.
+
+---
+
+# 🏆 Milestones
+
+- ✅ Ubuntu (WSL) Installed
+- ✅ GitHub Repository Created
+- ✅ Daily Documentation Started
+- ✅ Linux Fundamentals in Progress
+- ✅ OverTheWire Bandit Level 13 Completed
+- 🔄 Preparing for Networking Fundamentals
+- 🔄 Preparing for Python for Cybersecurity
+- 🎯 Long-Term Goal: IIT Kanpur BCYBER
+
+---
+
+# 📖 Final Note
+
+This repository represents more than completed exercises—it represents consistent effort, curiosity, and disciplined learning. Every command practiced, every mistake investigated, and every concept documented contributes to building a stronger foundation in cybersecurity.
+
+The journey has only begun, and each day brings new opportunities to improve, experiment, and grow.
+
+---
+
+> **"Don't chase completion. Chase understanding. Master the fundamentals, and the advanced topics will become much easier."**
