@@ -23,7 +23,7 @@ The objective of today's lab was to gain practical experience with Linux file pe
 
 **Operating System:** Ubuntu 24.04 LTS (WSL)
 
-**Shell:** Bash
+**Shelll:** Bash
 
 **Platform:** Windows Subsystem for Linux (WSL)
 
