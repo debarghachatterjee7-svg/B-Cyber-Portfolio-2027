@@ -50,7 +50,7 @@ This repository will continue growing over the next **10 months** as I prepare f
 | ✅ Day 12 | Standard Streams, Redirection & ROT13 |
 | ✅ Day 13 | Hexadecimal, Binary Files, `xxd` & Binary Inspection |
 | ✅ Day 14 | Linux File Permissions, SSH Authentication & Secure Remote Access |
-
+| 🟡 Day 15 | Strategic Planning, Roadmap Refinement & Learning Reflection *(Planned Rest Day)* |
 ---
 
 # 📂 Repository Structure
