@@ -160,3 +160,804 @@ This challenge helped me recognise the importance of building strong theoretical
 Today's laboratory session successfully reinforced my Linux fundamentals while exposing me to introductory SSH authentication concepts. More importantly, it changed my approach towards learning cybersecurity. Instead of focusing only on completing OverTheWire levels, I now understand that mastering the underlying concepts is far more valuable than simply progressing through challenges.
 
 This practical session strengthened my confidence with Linux while highlighting the importance of continuous learning, experimentation, and conceptual understanding for achieving my long-term goal of joining the IIT Kanpur BCYBER program.
+# 🧠 Skills Acquired So Far
+
+## 🐧 Linux Fundamentals
+
+- ✅ Linux File System Navigation
+- ✅ Relative & Absolute Paths
+- ✅ Working with Hidden Files
+- ✅ Creating, Copying, Moving & Removing Files
+- ✅ Directory Management
+- ✅ Viewing File Contents
+- ✅ File Metadata
+- ✅ Linux Manual Pages (`man`)
+- ✅ File Searching using `find`
+- ✅ File Type Identification using `file`
+- ✅ Binary Inspection using `strings`
+- ✅ Character Translation using `tr`
+- ✅ Base64 Encoding & Decoding
+- ✅ Hexadecimal Representation using `xxd`
+- ✅ Standard Streams
+- ✅ Input / Output Redirection
+- ✅ Error Redirection
+- ✅ Pipes (`|`)
+- ✅ Sorting Data
+- ✅ Removing Duplicate Entries
+- ✅ Pattern Matching using `grep`
+- ✅ Counting using `wc`
+- ✅ Data Extraction using `cut`
+
+---
+
+## 🔐 Linux Permissions
+
+- ✅ Owner
+- ✅ Group
+- ✅ Others
+- ✅ Read Permission
+- ✅ Write Permission
+- ✅ Execute Permission
+- ✅ Symbolic Permissions
+- ✅ Numeric Permissions
+- ✅ chmod Basics
+- ✅ Understanding Permission Security
+
+---
+
+## 🔑 SSH Fundamentals
+
+- ✅ What is SSH
+- ✅ Why SSH replaced Telnet
+- ✅ Secure Remote Login
+- ✅ SSH Client vs SSH Server
+- ✅ Password Authentication
+- ✅ Public Key Authentication
+- ✅ Private Keys
+- ✅ Public Keys
+- ✅ SSH Directory Structure
+- ✅ SSH Key Generation
+- ✅ SSH Fingerprints
+- ✅ Ed25519 Keys
+- ✅ Linux Authentication Basics
+
+---
+
+# 💻 Commands Learned
+
+## File Commands
+
+```bash
+pwd
+ls
+ls -a
+ls -la
+cd
+mkdir
+touch
+cp
+mv
+rm
+rmdir
+cat
+less
+head
+tail
+```
+
+---
+
+## Search Commands
+
+```bash
+find
+grep
+file
+strings
+```
+
+---
+
+## Data Processing
+
+```bash
+cut
+sort
+uniq
+wc
+tr
+base64
+xxd
+```
+
+---
+
+## Permission Commands
+
+```bash
+chmod
+```
+
+---
+
+## SSH Commands
+
+```bash
+ssh-keygen
+```
+
+---
+
+# 📂 Current Repository Content
+
+```text
+📒 Journals        : 16
+
+🧪 Labs            : 10
+
+📖 Notes           : 10
+
+📸 Screenshots     : 26
+
+🖥 Linux Practice  : Daily
+
+📚 Theory          : First Principles
+
+🎯 Projects        : Coming Soon
+```
+
+---
+
+# 📈 Current Learning Phase
+
+```text
+████████████████████░░░░░░░░░░░░
+
+Linux Foundations
+
+Current Status:
+
+✔ Linux Navigation
+
+✔ File System
+
+✔ Permissions
+
+✔ Binary Files
+
+✔ Text Processing
+
+✔ Redirection
+
+✔ SSH Basics
+
+⬜ SSH Authentication Workflow
+
+⬜ Bash Scripting
+
+⬜ Networking
+
+⬜ Python
+
+⬜ Web Security
+
+⬜ Cryptography
+```
+
+---
+
+# 🎯 Current Focus
+
+My current objective is **building an extremely strong Linux foundation** before entering networking and cybersecurity.
+
+Instead of memorizing commands, every concept is studied from first principles.
+
+The philosophy followed throughout this repository is:
+
+> **Understand → Practice → Document → Apply**
+
+Only after understanding a concept thoroughly do I move on to practical exercises and later apply it in challenges such as OverTheWire Bandit.
+
+This approach ensures long-term retention and prepares me for real-world cybersecurity work rather than only solving CTFs.
+
+---
+
+# 🔥 Daily Workflow
+
+Every learning day follows the same structure.
+
+```text
+📖 Theory
+
+↓
+
+🧠 Deep Understanding
+
+↓
+
+🧪 Practical Lab
+
+↓
+
+📸 Screenshots
+
+↓
+
+📒 Journal Writing
+
+↓
+
+📖 Detailed Notes
+
+↓
+
+GitHub Upload
+
+↓
+
+Revision
+```
+
+---
+
+# 📚 Documentation Standard
+
+Every completed topic contains:
+
+- Detailed theory
+- Practical commands
+- Command explanations
+- Mistakes made
+- Lessons learned
+- Reflection
+- Screenshots
+- Future improvements
+
+This ensures the repository serves as both a learning journal and a long-term knowledge base.
+
+# 📚 Modules Completed
+
+## 🐧 Module 1 — Linux Fundamentals
+
+✔ Linux Directory Structure
+
+✔ Relative & Absolute Paths
+
+✔ File & Directory Management
+
+✔ Hidden Files
+
+✔ Basic Terminal Navigation
+
+✔ File Investigation
+
+✔ File Searching
+
+✔ Linux Documentation (`man`)
+
+---
+
+## ⚙️ Module 2 — Linux Text Processing
+
+✔ grep
+
+✔ wc
+
+✔ cut
+
+✔ sort
+
+✔ uniq
+
+✔ strings
+
+✔ tr
+
+✔ base64
+
+✔ xxd
+
+✔ ROT13
+
+✔ Pipelines
+
+✔ Standard Streams
+
+✔ Redirection
+
+---
+
+## 🔒 Module 3 — Linux Permissions
+
+✔ Read Permission
+
+✔ Write Permission
+
+✔ Execute Permission
+
+✔ Owner
+
+✔ Group
+
+✔ Others
+
+✔ chmod
+
+✔ Numeric Permissions
+
+✔ Symbolic Permissions
+
+✔ Permission Security
+
+---
+
+## 🔐 Module 4 — SSH Fundamentals
+
+✔ What is SSH
+
+✔ Why SSH Exists
+
+✔ Secure Remote Login
+
+✔ SSH Client
+
+✔ SSH Server
+
+✔ Password Authentication
+
+✔ Public Key Authentication
+
+✔ SSH Key Pair
+
+✔ Public Key
+
+✔ Private Key
+
+✔ Key Fingerprint
+
+✔ SSH Directory Structure
+
+✔ SSH Key Generation
+
+✔ Ed25519 Keys
+
+---
+
+# 📅 Upcoming Learning Roadmap
+
+## 🟢 Module 5 — Complete SSH Authentication
+
+⬜ authorized_keys
+
+⬜ known_hosts
+
+⬜ SSH Authentication Flow
+
+⬜ SSH Connection Lifecycle
+
+⬜ Host Verification
+
+⬜ Identity Verification
+
+⬜ SSH Config File
+
+⬜ SSH Agent
+
+⬜ ssh-copy-id
+
+⬜ SCP
+
+⬜ SFTP
+
+⬜ Secure File Transfer
+
+⬜ OverTheWire Bandit Integration
+
+---
+
+## 🌐 Module 6 — Computer Networking
+
+⬜ What is Networking
+
+⬜ OSI Model
+
+⬜ TCP/IP Model
+
+⬜ MAC Address
+
+⬜ IP Address
+
+⬜ IPv4
+
+⬜ IPv6
+
+⬜ ARP
+
+⬜ DNS
+
+⬜ DHCP
+
+⬜ NAT
+
+⬜ Routing
+
+⬜ Switches
+
+⬜ Routers
+
+⬜ TCP
+
+⬜ UDP
+
+⬜ Ports
+
+⬜ HTTP
+
+⬜ HTTPS
+
+⬜ FTP
+
+⬜ SSH Protocol Deep Dive
+
+---
+
+## 🐍 Module 7 — Python for Cybersecurity
+
+⬜ Variables
+
+⬜ Data Types
+
+⬜ Conditions
+
+⬜ Loops
+
+⬜ Functions
+
+⬜ Lists
+
+⬜ Dictionaries
+
+⬜ File Handling
+
+⬜ Exception Handling
+
+⬜ Modules
+
+⬜ Automation Scripts
+
+⬜ Network Programming
+
+---
+
+## 🔐 Module 8 — Cryptography
+
+⬜ Classical Ciphers
+
+⬜ Symmetric Encryption
+
+⬜ Asymmetric Encryption
+
+⬜ RSA
+
+⬜ AES
+
+⬜ DES
+
+⬜ Diffie-Hellman
+
+⬜ Hash Functions
+
+⬜ MD5
+
+⬜ SHA-1
+
+⬜ SHA-256
+
+⬜ Digital Signatures
+
+⬜ Certificates
+
+⬜ PKI
+
+---
+
+# 🏆 Milestones
+
+| Milestone | Status |
+|-----------|--------|
+| Linux Basics | ✅ Completed |
+| Linux Intermediate | 🟨 In Progress |
+| SSH Foundations | 🟨 In Progress |
+| Networking Fundamentals | ⬜ Planned |
+| Python Fundamentals | ⬜ Planned |
+| Cryptography | ⬜ Planned |
+| Web Security | ⬜ Planned |
+| Reverse Engineering | ⬜ Planned |
+| Binary Exploitation | ⬜ Planned |
+| Malware Analysis | ⬜ Planned |
+| Digital Forensics | ⬜ Planned |
+| Final BCYBER Preparation | ⬜ Planned |
+
+---
+
+# 💡 Learning Philosophy
+
+> "Don't memorize commands. Understand why they exist."
+
+Every topic in this repository follows the same approach:
+
+```
+Understand Theory
+        │
+        ▼
+Visualize the Concept
+        │
+        ▼
+Practice Commands
+        │
+        ▼
+Perform Hands-on Labs
+        │
+        ▼
+Document Learning
+        │
+        ▼
+Apply in Challenges
+        │
+        ▼
+Revise & Improve
+```
+
+This repository is intentionally built around **deep understanding before application**. CTFs are used only after the underlying concepts are mastered, ensuring that each solved challenge strengthens real cybersecurity knowledge rather than relying on guesswork.
+
+---
+
+# 🚀 Long-Term Vision
+
+After completing this roadmap, I aim to be proficient in:
+
+- Linux Administration
+- Bash Scripting
+- Computer Networking
+- Python Automation
+- Cryptography
+- Web Security
+- Reverse Engineering
+- Binary Exploitation
+- Malware Analysis
+- Digital Forensics
+- Capture The Flag Competitions
+- Real-world Cybersecurity Projects
+
+Ultimately, this journey is focused on becoming capable of succeeding in the **IIT Kanpur BCYBER Program** and developing the practical skills required for a career in cybersecurity.
+---
+
+# 📂 Repository Index
+
+```text
+BCYBER-Journey/
+│
+├── 📒 journal/
+│   ├── day01_journal.md
+│   ├── day02_journal.md
+│   ├── ...
+│   └── day16_journal.md
+│
+├── 🧪 labs/
+│   ├── day01_lab.md
+│   ├── ...
+│   └── day16_lab.md
+│
+├── 📖 notes/
+│   ├── day01_notes.md
+│   ├── ...
+│   └── day16_notes.md
+│
+├── 📸 screenshots/
+│
+├── 📂 assets/
+│
+├── 📂 projects/
+│
+├── 📂 roadmap/
+│
+└── README.md
+```
+
+---
+
+# 📈 Repository Growth
+
+| Category | Count |
+|----------|------:|
+| 📒 Journals | **16** |
+| 🧪 Labs | **10** |
+| 📖 Notes | **10** |
+| 📸 Screenshots | **26** |
+| 🖥 Linux Topics | **16** |
+| 🎯 Current Module | **SSH Fundamentals** |
+
+---
+
+# 🏅 Major Achievements
+
+## ✅ Linux Fundamentals
+
+- Linux Navigation
+- File Management
+- Hidden Files
+- Permissions
+- File Investigation
+- Text Processing
+- Binary Inspection
+- Hexadecimal Analysis
+- Standard Streams
+- Redirection
+- Linux Pipelines
+
+---
+
+## ✅ SSH Fundamentals
+
+- SSH Introduction
+- Secure Remote Login
+- SSH Authentication
+- SSH Key Generation
+- Public Keys
+- Private Keys
+- SSH Fingerprints
+- Permission Security
+
+---
+
+# 🛠 Current Toolbox
+
+```text
+Linux Terminal
+███████████████████████
+
+File Management
+██████████████████████
+
+Text Processing
+████████████████████
+
+Permissions
+██████████████████
+
+SSH Basics
+████████████████
+
+Networking
+░░░░░░░░░░░░░░░░░░
+
+Python
+░░░░░░░░░░░░░░░░░░
+
+Cryptography
+░░░░░░░░░░░░░░░░░░
+
+Web Security
+░░░░░░░░░░░░░░░░░░
+
+Reverse Engineering
+░░░░░░░░░░░░░░░░░░
+
+Binary Exploitation
+░░░░░░░░░░░░░░░░░░
+```
+
+---
+
+# 🎯 Learning Rules
+
+✔ Learn from first principles.
+
+✔ Never memorize without understanding.
+
+✔ Practice immediately after theory.
+
+✔ Record every mistake.
+
+✔ Document everything.
+
+✔ Revise regularly.
+
+✔ Build projects after mastering concepts.
+
+✔ Use CTFs only after understanding the underlying theory.
+
+---
+
+# 📅 Roadmap Status
+
+```text
+Linux Fundamentals
+██████████████████████████ 100%
+
+Linux Intermediate
+████████████████░░░░░░░░░░ 70%
+
+SSH Fundamentals
+██████████████████░░░░░░░░ 80%
+
+Networking
+░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+Python
+░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+Cryptography
+░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+Web Security
+░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+Reverse Engineering
+░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+Binary Exploitation
+░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+Malware Analysis
+░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+Digital Forensics
+░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+```
+
+---
+
+# 🚀 Long-Term Objectives
+
+- 🎯 Get selected for IIT Kanpur BCYBER.
+- 🐧 Master Linux Internals.
+- 🌐 Understand Computer Networking.
+- 🐍 Learn Python for Automation.
+- 🔐 Master Cryptography.
+- 🕸 Learn Web Security.
+- ⚙ Reverse Engineering.
+- 💥 Binary Exploitation.
+- 🦠 Malware Analysis.
+- 🔍 Digital Forensics.
+- 🏆 Participate in National & International CTFs.
+- 💻 Build Real Cybersecurity Projects.
+- 🌍 Contribute to Open Source Security Tools.
+
+---
+
+# 💬 Personal Motto
+
+> **"Understand first. Practice second. Master forever."**
+
+> **"Every command has a purpose. Learn the purpose, not just the syntax."**
+
+> **"Consistency beats intensity."**
+
+> **"Small improvements every day create extraordinary results."**
+
+---
+
+# 📌 Repository Status
+
+```text
+Repository Name : BCYBER-Journey
+
+Current Day     : 16
+
+Current Module  : SSH Fundamentals
+
+Learning Style  : Theory → Lab → Notes → Journal → Revision
+
+Status          : 🟢 Active
+
+Last Updated    : Day 16
+```
+
+---
+
+# ⭐ Thank You for Visiting
+
+If you're also learning Linux or Cybersecurity from scratch, I hope this repository helps you understand concepts deeply rather than simply memorizing commands.
+
+**Happy Learning! 🐧🔐🚀**
