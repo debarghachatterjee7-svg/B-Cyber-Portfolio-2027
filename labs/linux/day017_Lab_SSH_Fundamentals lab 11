@@ -1,28 +1,30 @@
 # Day 17 Lab – Exploring SSH Fundamentals, Keys, Known Hosts & File Identification
 
 ## Date
-20 July 2026
-
-## Objective
-
-Today's lab focuses on understanding the SSH environment already present on the system. No new SSH keys are generated and no configuration files are modified. The goal is to observe how SSH stores information and relate the practical observations with the theory learned today.
+21 July 2026
 
 ---
 
-# Lab Requirements
+# Objective
 
-System:
-- Ubuntu (WSL)
+The objective of today's lab was to understand the SSH environment already present on my Linux system. Instead of modifying SSH configurations, I explored the existing SSH files and related them to the theoretical concepts learned during today's lesson.
 
-Tools Used:
-- Bash Terminal
-- SSH
-- file command
-- cat
+---
+
+# Environment
+
+Operating System:
+Ubuntu 24.04 LTS (WSL)
+
+Terminal:
+Bash
+
+Commands Used:
+
+- ssh-keygen
 - ls
-
-Estimated Time:
-30–40 Minutes
+- cat
+- file
 
 ---
 
@@ -40,21 +42,18 @@ Display every file present inside the hidden SSH directory.
 
 ### Observation
 
-Identify files such as:
+The directory contained:
 
 - id_ed25519
 - id_ed25519.pub
 - known_hosts
+- known_hosts.old
 
-Check whether an authorized_keys file exists.
-
-### Screenshot
-
-Take Screenshot 1
+The `authorized_keys` file was not present because this machine has not been configured as an SSH server.
 
 ---
 
-# Experiment 2 – Reading the Public Key
+# Experiment 2 – Viewing the Public Key
 
 ## Command
 
@@ -66,25 +65,29 @@ cat ~/.ssh/id_ed25519.pub
 
 Display the public key stored on the system.
 
-### Observe
+### Observation
 
-- Begins with:
+The key started with:
 
+```
 ssh-ed25519
+```
 
-- Long Base64 encoded string
+followed by a long Base64 encoded string and finally my username and hostname.
 
-- Username or hostname appears near the end
+### Answers
 
-### Questions
+**1. Why is this key safe to share?**
 
-1. Why is this key safe to share?
-2. Which algorithm is mentioned?
-3. Is this key readable text?
+Because it is the public key. It is designed to be copied to servers for authentication.
 
-### Screenshot
+**2. Which algorithm is being used?**
 
-Take Screenshot 2
+ED25519
+
+**3. Why is the file readable?**
+
+Because a public key is stored in text format.
 
 ---
 
@@ -98,23 +101,27 @@ cat ~/.ssh/known_hosts
 
 ### Purpose
 
-Observe the servers trusted by this computer.
+Observe trusted server information stored by SSH.
 
-### Observe
+### Observation
 
-Notice that entries look very different from your public key.
+The file contained multiple entries representing servers that my computer has previously connected to.
 
-These belong to servers rather than users.
+These entries were completely different from my public key.
 
-### Questions
+### Answers
 
-1. Who created this file?
-2. Why does SSH need it?
-3. Does this file contain your key?
+**1. Who created this file?**
 
-### Screenshot
+SSH automatically created and updated it.
 
-Take Screenshot 3
+**2. What information does it contain?**
+
+Public host keys (fingerprints) of trusted servers.
+
+**3. Why does SSH maintain this file?**
+
+To verify the identity of servers during future connections and prevent man-in-the-middle attacks.
 
 ---
 
@@ -132,16 +139,21 @@ Identify the actual type of the private key.
 
 ### Observation
 
-Record the output produced by Linux.
+Linux identified the file as:
 
-### Questions
+```
+OpenSSH private key
+```
 
-1. Is this a text file?
-2. Is this recognised as an OpenSSH private key?
+### Answers
 
-### Screenshot
+**1. Is this recognised as an OpenSSH private key?**
 
-Take Screenshot 4
+Yes.
+
+**2. Why should this file never be shared?**
+
+Because anyone possessing the private key can authenticate as me if the corresponding public key is authorized.
 
 ---
 
@@ -155,20 +167,25 @@ file ~/.ssh/id_ed25519.pub
 
 ### Purpose
 
-Determine how Linux identifies the public key.
+Identify the public key.
 
-### Observe
+### Observation
 
-Compare the result with the private key.
+Linux recognised it as:
 
-### Questions
+```
+OpenSSH ED25519 public key
+```
 
-1. Why are the outputs different?
-2. Which file is meant to be shared?
+### Answers
 
-### Screenshot
+**1. Why are the outputs different?**
 
-Take Screenshot 5
+One file is a private key while the other is a public key.
+
+**2. Which file should be copied to a server?**
+
+The public key (`id_ed25519.pub`).
 
 ---
 
@@ -182,119 +199,141 @@ file ~/.ssh/known_hosts
 
 ### Purpose
 
-Determine how Linux classifies the known_hosts file.
+Understand how Linux identifies the known_hosts file.
 
-### Questions
+### Observation
 
-1. Why is this file plain text?
-2. What information is stored inside it?
+Linux recognised it as:
 
-### Screenshot
+```
+ASCII text
+```
 
-Take Screenshot 6
+### Answers
 
----
+**1. Why is this file stored as plain text?**
 
-# Concept Review
+Because SSH only needs to read server information stored inside it.
 
-Answer the following without using the internet.
+**2. What kind of information is saved inside it?**
 
-## Q1
-
-Difference between:
-
-- Public Key
-- Private Key
+Public host keys and fingerprints of trusted remote servers.
 
 ---
 
-## Q2
+# Theory Reinforcement
 
-Difference between:
+## Question 1
 
-- authorized_keys
-- known_hosts
+Difference between Public Key and Private Key.
+
+**Answer**
+
+The public key is shared with servers and is used for verification. The private key remains secret on the user's machine and is used to prove identity during authentication.
 
 ---
 
-## Q3
+## Question 2
+
+Difference between authorized_keys and known_hosts.
+
+**Answer**
+
+`authorized_keys` stores public keys of users allowed to access a server.
+
+`known_hosts` stores fingerprints of servers trusted by the client.
+
+---
+
+## Question 3
+
+Explain the SSH authentication flow.
+
+**Answer**
+
+The client requests access to a server. The server sends a challenge. The client signs the challenge using its private key. The server verifies the signature using the stored public key. If verification succeeds, access is granted.
+
+---
+
+## Question 4
 
 What is an SSH fingerprint?
 
----
+**Answer**
 
-## Q4
-
-Why are fingerprints used instead of entire keys?
+A fingerprint is a short cryptographic identifier generated from an SSH key. It allows users to compare keys easily instead of comparing the complete key.
 
 ---
 
-## Q5
+## Question 5
 
-What is SHA-256 used for in SSH?
+Why are fingerprints generated instead of comparing complete keys?
+
+**Answer**
+
+Complete keys are very long. Fingerprints are much shorter and easier to compare while still uniquely representing the original key.
 
 ---
 
-## Q6
+## Question 6
+
+Explain the purpose of SHA-256 in SSH.
+
+**Answer**
+
+SHA-256 generates a secure fingerprint from the SSH key. It allows quick and reliable verification of key identity.
+
+---
+
+## Question 7
 
 What is RandomArt?
 
----
+**Answer**
 
-## Q7
-
-Why does Linux use the file command instead of relying on extensions?
+RandomArt is an ASCII visual representation of an SSH fingerprint. It helps humans visually compare keys.
 
 ---
 
-## Q8
+## Question 8
 
-Why is SSH considered more secure than Telnet?
+Why does Linux identify files using the file command instead of relying only on extensions?
+
+**Answer**
+
+Linux checks the actual contents of a file rather than its extension, making file identification more reliable and secure.
 
 ---
 
-# Skills Practiced
+# Skills Practised
 
-✔ Exploring hidden directories
-
-✔ Reading SSH configuration files
-
-✔ Understanding public and private keys
-
-✔ Understanding trusted hosts
-
-✔ File identification using Linux
-
-✔ Relating theory to practical observations
+- Explored the hidden SSH directory.
+- Examined SSH key files.
+- Distinguished between public and private keys.
+- Observed trusted server records.
+- Used the `file` command to identify file types.
+- Connected practical observations with SSH theory.
 
 ---
 
 # Challenges Faced
 
-(To be filled after completing the lab.)
-
-- _______________________________________
-
-- _______________________________________
-
-- _______________________________________
+- Initially confused the private key with the public key.
+- Accidentally attempted to read the `.ssh` directory instead of the files inside it.
+- Understood that Linux paths must point to files rather than directories when using `cat`.
 
 ---
 
 # Key Learnings
 
-(To be filled after completing the lab.)
-
-- _______________________________________
-
-- _______________________________________
-
-- _______________________________________
-
-- _______________________________________
+- SSH stores important authentication information inside the hidden `.ssh` directory.
+- Public keys can be shared safely, but private keys must remain secret.
+- `known_hosts` stores trusted server identities.
+- The `file` command identifies files based on their content rather than extensions.
+- SSH authentication depends on cryptography rather than simple passwords.
 
 ---
 
-# Conclusion
+# Reflection
 
-Today's practical session focused on observing how SSH stores important information instead of modifying or generating new keys. By exploring the .ssh directory and identifying different files, I strengthened my understanding of SSH authentication, trusted hosts, and Linux file identification. This practical reinforced the theory learned during today's class and prepared me for tomorrow's advanced SSH-keygen concepts and OverTheWire continuation.
+Today's practical session focused on observation rather than configuration. I explored the existing SSH environment and verified the concepts learned during today's theory class. I now understand where SSH stores keys, how Linux identifies these files, and the difference between trusting users and trusting servers. This practical has prepared me to learn advanced `ssh-keygen` options and continue with the next stage of the roadmap.
