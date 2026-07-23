@@ -63,7 +63,7 @@ Preparing for:
 | Metric | Progress |
 |---------|---------:|
 | 📅 Learning Days | **19** |
-| ⏱️ Total Learning Time | **34+ Hours** |
+| ⏱️ Total Learning Time | **36+ Hours** |
 | 🧪 Practical Labs | **13** |
 | 📚 Technical Notes | **13** |
 | ⭐ Important Concept Files | **13** |
