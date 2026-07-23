@@ -1,1470 +1,1831 @@
-<!-- ========================================================= -->
-<!--                CYBERSECURITY PORTFOLIO                    -->
-<!-- ========================================================= -->
-
 <div align="center">
 
-# 🛡️ Cybersecurity Learning Portfolio
+# <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="45"> Cybersecurity Learning Journey
 
-### *A Public Documentation of My Journey Towards Becoming a Cybersecurity Engineer*
+### *From Absolute Beginner → IIT Kanpur Cybersecurity Aspirant → Ethical Hacker*
 
-<img src="https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenSSH-Enabled-2E8B57?style=for-the-badge&logo=gnubash&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-Documentation-181717?style=for-the-badge&logo=github"/>
-<img src="https://img.shields.io/badge/Cybersecurity-In%20Progress-blue?style=for-the-badge&logo=hackthebox"/>
-
----
-
-> **"Learning Cybersecurity isn't about memorizing commands.**
->
-> **It's about understanding how systems work, why they fail, and how to defend them."**
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Building+Cybersecurity+Knowledge+One+Day+at+a+Time;Linux+%7C+Networking+%7C+Cryptography+%7C+Web+Security;Capture+The+Flag+%7C+OSINT+%7C+Research+%7C+Ethical+Hacking;Documenting+Everything+I+Learn+Professionally" alt="Typing SVG" />
+</p>
 
 ---
 
-## 🎯 Current Goal
+<img src="https://img.shields.io/github/last-commit/Debargha-chatterjee/Cybersecurity-Journey?style=for-the-badge&color=00C853">
+<img src="https://img.shields.io/github/repo-size/Debargha-chatterjee/Cybersecurity-Journey?style=for-the-badge&color=2196F3">
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Linux-Ubuntu%20WSL-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+<img src="https://img.shields.io/badge/OpenSSH-Learning-2E8B57?style=for-the-badge">
+<img src="https://img.shields.io/badge/CTF-OverTheWire-green?style=for-the-badge">
 
-Building a **strong Linux, Networking, Programming, Cryptography and Cybersecurity foundation** to prepare for:
+<br>
 
-🏆 IIT Kanpur Cybersecurity Program
-
-🏆 Hackathons
-
-🏆 Capture The Flag (CTF)
-
-🏆 Security Research
-
-🏆 IEEE / Springer Research Publication
-
----
-
-</div>
+<img src="https://img.shields.io/badge/Focus-Cybersecurity-red?style=flat-square">
+<img src="https://img.shields.io/badge/Learning-Linux-blue?style=flat-square">
+<img src="https://img.shields.io/badge/Networking-In%20Progress-orange?style=flat-square">
+<img src="https://img.shields.io/badge/Research-Active-purple?style=flat-square">
+<img src="https://img.shields.io/badge/GitHub-Daily%20Updates-black?style=flat-square&logo=github">
 
 ---
 
-# 📌 Navigation
+# 🛡️ Welcome
 
-- [📖 About This Repository](#-about-this-repository)
-- [📊 Repository Statistics](#-repository-statistics)
-- [🎯 Long-Term Objectives](#-long-term-objectives)
-- [🛣️ Learning Roadmap](#-learning-roadmap)
-- [📂 Repository Structure](#-repository-structure)
-- [📓 Documentation](#-documentation)
-- [🧠 Skills Progress](#-skills-progress)
-- [🧪 Practical Labs](#-practical-labs)
-- [🚀 Current Focus](#-current-focus)
-- [🔬 Future Research](#-future-research)
-- [🏆 Certifications](#-certifications)
-- [🎮 Hack The Box](#-hack-the-box)
-- [🏁 Final Goal](#-final-goal)
+This repository documents my complete cybersecurity journey—from having **zero technical knowledge** to building a strong foundation in Linux, networking, programming, cryptography, web security, reverse engineering, OSINT, and Capture The Flag (CTF) competitions.
+
+Unlike traditional repositories that only showcase completed projects, this repository captures the **entire learning process**, including journals, technical notes, practical labs, screenshots, mistakes, debugging sessions, research, and reflections.
+
+Every concept is learned, practiced, documented, revised, and applied to ensure deep understanding rather than memorization.
 
 ---
 
-# 📖 About This Repository
+# 🎯 Mission
 
-This repository documents my complete cybersecurity learning journey from **absolute beginner** to an industry-ready cybersecurity engineer.
+> **To become a highly skilled cybersecurity professional capable of solving real-world security problems through discipline, continuous learning, and practical experience.**
 
-Unlike repositories that only upload completed projects, this repository records **every stage of learning**, including:
-
-- 📚 Daily Theory
-- 🧪 Practical Labs
-- 📝 Technical Notes
-- 📷 Practical Screenshots
-- 📓 Learning Journal
-- 🔍 Mistakes & Corrections
-- 💡 Reflections
-- 🚀 Future Plans
-
-Every command, concept, lab and observation is documented to create a transparent learning record.
+This repository is my long-term commitment to consistent growth and technical excellence.
 
 ---
 
-# 📊 Repository Statistics
+# 📌 Current Objective
 
-<div align="center">
+Preparing for:
 
-| 📌 Category | Progress |
-|------------|----------:|
-| 📓 Journal Entries | **18** |
+- 🏆 IIT Kanpur Cybersecurity Program
+- 🏆 National & International Hackathons
+- 🏆 Capture The Flag Competitions
+- 🏆 Ethical Hacking & Penetration Testing
+- 🏆 Security Research
+- 🏆 Professional Cybersecurity Certifications
+
+---
+
+# 📊 Current Progress Dashboard
+
+| Metric | Progress |
+|---------|---------:|
+| 📅 Learning Days | **19** |
+| ⏱️ Total Learning Time | **34+ Hours** |
 | 🧪 Practical Labs | **13** |
-| 📝 Technical Notes | **13** |
-| 📷 Screenshots | **29** |
-| ⏱️ Total Learning Time | **36+ Hours** |
-| 💻 Linux Days Completed | **18** |
+| 📚 Technical Notes | **13** |
+| ⭐ Important Concept Files | **13** |
+| 📸 Screenshots | **29** |
+| 🎯 OverTheWire Progress | **Bandit Level 13 Completed** |
+| 💻 Linux Distribution | **Ubuntu WSL** |
+| 📖 Documentation Style | **Professional Markdown** |
+
+---
+
+# 🚀 Progress Timeline
+
+```text
+Linux Fundamentals        ████████████░░░░░░░░░░░░░░░░░ 40%
+
+Networking                ██░░░░░░░░░░░░░░░░░░░░░░░░░░░ 08%
+
+Programming               ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
+
+Cryptography              ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
+
+Web Security              ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
+
+Reverse Engineering       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
+
+OSINT                     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
+
+Capture The Flag          ███░░░░░░░░░░░░░░░░░░░░░░░░░░ 10%
+```
+
+---
+
+> *"Every expert was once a beginner who refused to quit."*
 
 </div>
+---
+
+# 👨‍💻 About Me
+
+Hello! I'm **Debargha Chatterjee**, a cybersecurity enthusiast from **India** currently building my knowledge from the ground up.
+
+I strongly believe that true expertise is built through **consistent practice, disciplined documentation, and continuous improvement** rather than shortcuts or memorizing solutions.
+
+This repository serves as a transparent record of my learning process—from understanding Linux fundamentals to solving real Capture The Flag (CTF) challenges and eventually contributing to the cybersecurity community through projects and research.
+
+Every concept documented here has been studied, practiced, tested, and reflected upon.
 
 ---
 
-## 📈 Overall Progress
+# 🧠 Learning Philosophy
+
+I follow a simple principle:
 
 ```text
-Linux Foundation        ████████████████████░░░░░░░░░░░░░░ 40%
-
-Cybersecurity Basics    ███████████░░░░░░░░░░░░░░░░░░░░░░░ 22%
-
-Networking              ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 06%
-
-Programming             ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
-
-Cryptography            ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
-
-Web Security            ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
-
-Reverse Engineering     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
-
-Research                ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
+Learn
+   ↓
+Understand
+   ↓
+Practice
+   ↓
+Document
+   ↓
+Revise
+   ↓
+Apply
+   ↓
+Master
 ```
 
----
+Instead of rushing through tutorials, I focus on building a deep understanding of each concept before moving forward.
 
-# 🎯 Long-Term Objectives
-
-## Academic
-
-- 🎓 IIT Kanpur Cybersecurity Program
-- 📖 Build strong Computer Science fundamentals
-- 🧠 Master Linux
-- 🌐 Master Networking
+My objective is to develop practical skills that can be applied in real-world cybersecurity scenarios.
 
 ---
 
-## Technical
+# 🎯 What Makes This Repository Different?
 
-- 🔐 Cryptography
-- 🌐 Web Security
-- 🐧 Linux Administration
-- 🧠 Programming
-- 🔎 Digital Forensics
-- 🕵️ Penetration Testing
-- 🧩 Reverse Engineering
-- ☁️ Cloud Security
+Unlike traditional repositories that only showcase completed projects, this repository documents the **entire learning journey**.
 
----
+It includes:
 
-## Professional
+- 📖 Daily Learning Journals
+- 🧪 Hands-on Practical Labs
+- 📚 Technical Notes
+- ⭐ Important Concepts
+- 📸 Screenshots & Evidence
+- 🐞 Debugging Sessions
+- 💡 Lessons Learned
+- 🔍 Personal Research
+- 🏴 Capture The Flag Progress
+- 🚀 Future Roadmap
 
-- 🏆 Participate in National Hackathons
-- 🎮 Solve CTF Challenges
-- 📚 Publish a Research Paper (IEEE / Springer)
-- 🌟 Build a Professional Cybersecurity Portfolio
-- 👨‍💻 Contribute to Open Source Security Projects
-
----
-# 🛣️ Learning Roadmap
-
-> **Current Phase:** Linux Foundations & Cybersecurity Fundamentals
-
-```text
-                    🚀 CYBERSECURITY ROADMAP
-
-                           START
-                             │
-                             ▼
-                 🐧 Linux Fundamentals ✅
-                             │
-                             ▼
-              ⚙️ Bash & Shell Scripting
-                             │
-                             ▼
-                🌐 Computer Networking
-                             │
-                             ▼
-                  🔐 Cryptography Basics
-                             │
-                             ▼
-                 🐍 Python Programming
-                             │
-                             ▼
-               🌍 Web Technologies (HTTP)
-                             │
-                             ▼
-              🛡️ Web Application Security
-                             │
-                             ▼
-                 🎯 Capture The Flag (CTF)
-                             │
-                             ▼
-                   🎮 Hack The Box Labs
-                             │
-                             ▼
-               🔬 Research & Publications
-                             │
-                             ▼
-              🏆 IIT Kanpur Cybersecurity
-```
+This allows me to track my growth while creating a valuable knowledge base for future reference.
 
 ---
 
-# 📅 Learning Timeline
+# 💻 Current Technology Stack
 
-| Phase | Status |
-|--------|:------:|
-| Linux Basics | ✅ Completed (Ongoing Revision) |
-| File System | ✅ |
-| Permissions | ✅ |
-| Search Utilities | ✅ |
-| Encoding & Decoding | ✅ |
-| SSH Fundamentals | ✅ |
-| Linux Consolidation | 🔄 Next |
-| OverTheWire Bandit | 🔄 Ongoing |
-| Networking | ⏳ Planned |
-| Python | ⏳ Planned |
-| Cryptography | ⏳ Planned |
-| Web Security | ⏳ Planned |
-| Reverse Engineering | ⏳ Planned |
-| Digital Forensics | ⏳ Planned |
-| Malware Analysis | ⏳ Planned |
-| Active Directory | ⏳ Planned |
-| Cloud Security | ⏳ Planned |
-| Research Paper | ⏳ Planned |
+## Operating System
+
+<p>
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,bash"/>
+</p>
+
+- Ubuntu (WSL)
+- Bash Terminal
+- Linux Command Line
 
 ---
 
-# 🎯 Current Focus
+## Development Environment
 
-Currently working on:
+<p>
+<img src="https://skillicons.dev/icons?i=vscode,git,github"/>
+</p>
 
-- ✅ Linux Command Line
-- ✅ Bash Environment
-- ✅ File System Navigation
-- ✅ Linux Permissions
-- ✅ Search & Filtering Commands
-- ✅ SSH Authentication
-- 🔄 Linux Revision
-- 🔄 OverTheWire Progress
-
-Current philosophy:
-
-> **Understand first. Practice second. Memorize never.**
+- Visual Studio Code
+- Git
+- GitHub Desktop
 
 ---
 
-# 🧠 Skills Progress
+## Currently Learning
 
-## Linux
+<p>
+<img src="https://skillicons.dev/icons?i=linux"/>
+</p>
 
-```text
-███████████████████████░░░░░░░░░░ 60%
-```
-
-Topics Covered
-
-- File System
-- Navigation
-- Hidden Files
+- Linux Administration
+- OpenSSH
+- Networking Fundamentals
+- File Systems
 - Permissions
+- Shell Navigation
+- Authentication
+
+---
+
+## Future Technologies
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,c,cpp,docker"/>
+</p>
+
+Planned learning:
+
+- Python
+- C Programming
+- C++
+- Docker
+- SQL
+- JavaScript
+
+---
+
+# 🗺️ Learning Roadmap
+
+## ✅ Stage 1 — Linux Fundamentals *(Current)*
+
+- Linux Navigation
+- File Management
+- File Permissions
+- Users & Groups
+- Redirection
+- Pipes
+- Grep
+- Find
 - SSH
-- Search Commands
-- Text Processing
-- File Operations
+- SSH Public Key Authentication
 
 ---
 
-## Networking
+## 🔜 Stage 2 — Networking
 
-```text
-██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 05%
-```
-
-Upcoming
-
-- OSI Model
 - TCP/IP
+- UDP
+- Ports
 - DNS
-- DHCP
-- ARP
-- Routing
+- HTTP
+- HTTPS
+- Netcat
+- Telnet
+- OpenSSL
+- Nmap
 
 ---
 
-## Programming
+## 🔜 Stage 3 — Programming
 
-```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
-```
-
-Planned
-
+- Bash Scripting
 - Python
 - C
 - C++
 
 ---
 
-## Cryptography
+## 🔜 Stage 4 — Web Security
 
-```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
-```
-
-Upcoming
-
-- Classical Cryptography
-- Hash Functions
-- AES
-- RSA
-- ECC
-- Digital Signatures
-
----
-
-## Web Security
-
-```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
-```
-
-Future Topics
-
-- HTTP
-- HTTPS
-- Cookies
+- HTML
+- JavaScript
+- Authentication
 - Sessions
-- JWT
+- Cookies
+- Burp Suite
 - OWASP Top 10
 
 ---
 
-## Reverse Engineering
+## 🔜 Stage 5 — Cryptography
 
-```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 00%
-```
+- AES
+- RSA
+- Diffie-Hellman
+- Hash Functions
+- Digital Signatures
+- PKI
 
-Future Topics
+---
 
-- Assembly
-- PE Format
+## 🔜 Stage 6 — Reverse Engineering
+
+- Assembly Basics
 - Ghidra
-- IDA
-- Binary Analysis
+- x64dbg
+- ELF Analysis
 
 ---
 
-# 🏅 Milestones
+## 🔜 Stage 7 — Capture The Flag
 
-| Milestone | Status |
-|-----------|:------:|
-| Linux Environment Setup | ✅ |
-| GitHub Repository Created | ✅ |
-| Daily Documentation Started | ✅ |
-| Linux Basics Completed | ✅ |
-| SSH Module Completed | ✅ |
-| Linux Revision | 🔄 |
-| Complete OverTheWire | ⏳ |
-| First Python Project | ⏳ |
-| First CTF | ⏳ |
-| First Hack The Box Machine | ⏳ |
-| First Research Paper Draft | ⏳ |
-| IEEE / Springer Submission | ⏳ |
+Platforms planned:
+
+- OverTheWire
+- PicoCTF
+- Hack The Box
+- PortSwigger Web Academy
+- CyberDefenders
 
 ---
 
-# 📈 Progress Since Day 001
+# 🏆 Long-Term Vision
+
+My long-term objective is to become a cybersecurity professional capable of:
+
+- Performing professional penetration testing
+- Solving advanced CTF challenges
+- Conducting security research
+- Building cybersecurity tools
+- Participating in national and international hackathons
+- Contributing to the open-source security community
+- Continuously learning and sharing knowledge
+
+---
+
+> **"Cybersecurity isn't about knowing every attack—it's about understanding systems deeply enough to think like both a defender and an attacker."**
+
+---
+---
+
+# 🗂️ Repository Architecture
+
+This repository follows a structured documentation system where every concept is recorded in multiple forms to reinforce long-term learning and practical application.
 
 ```text
-Day001  █
-
-Day005  ███
-
-Day010  ███████
-
-Day015  ███████████
-
-Day018  ███████████████
-
-Target (May 2027)
-
-████████████████████████████████████████████
-```
-
----
-
-# 💡 Learning Strategy
-
-This repository follows a layered learning approach.
-
-```
-Theory
-   │
-   ▼
-Understanding
-   │
-   ▼
-Practical Lab
-   │
-   ▼
-Documentation
-   │
-   ▼
-Revision
-   │
-   ▼
-Challenge Practice
-   │
-   ▼
-Projects
-   │
-   ▼
-Research
-```
-
-The goal is not to memorize commands, but to understand systems deeply enough to solve unfamiliar problems independently.
-# 📂 Repository Structure
-
-This repository follows a structured documentation-first approach.
-
-```
-Cybersecurity-Learning-Portfolio/
+📦 Cybersecurity-Journey
 │
-├── 📓 journal/
-│   ├── day001_journal.md
-│   ├── day002_journal.md
-│   ├── ...
-│   └── day018_journal.md
+├── 📖 journal/
+│   ├── Daily learning journals
+│   ├── Reflections
+│   ├── Progress tracking
+│   └── Weekly reviews
 │
 ├── 🧪 labs/
-│   ├── day001_lab.md
-│   ├── ...
-│   └── day018_lab.md
+│   ├── Hands-on Linux labs
+│   ├── SSH practicals
+│   ├── Networking exercises
+│   ├── CTF write-ups
+│   └── Future security labs
 │
-├── 📝 notes/
-│   ├── day001_notes.md
-│   ├── ...
-│   └── day018_notes.md
+├── 📚 notes/
+│   ├── Linux Notes
+│   ├── Networking Notes
+│   ├── Cryptography Notes
+│   ├── Web Security Notes
+│   └── Programming Notes
 │
-├── 📷 screenshots/
-│   ├── screenshot001.png
-│   ├── ...
-│   └── screenshot029.png
+├── ⭐ important/
+│   ├── Cheat Sheets
+│   ├── Commands
+│   ├── Important Concepts
+│   └── Quick Revision Guides
 │
-├── 🏆 certificates/
+├── 📸 screenshots/
+│   ├── Lab Evidence
+│   ├── Terminal Outputs
+│   ├── CTF Progress
+│   └── Learning Milestones
 │
-├── 🎮 ctf/
-│
-├── 💻 projects/
-│
-├── 🔬 research/
+├── 🎯 projects/
+│   ├── Linux Projects
+│   ├── Security Tools
+│   ├── Python Automation
+│   ├── OSINT Utilities
+│   └── AI + Cybersecurity
 │
 └── README.md
 ```
 
 ---
 
-# 📚 Documentation Center
+# 📈 Learning Progress
 
-Every learning session is documented using three different documents.
-
----
-
-## 📓 Daily Journal
-
-Purpose
-
-- Daily learning summary
-- Reflection
-- Mistakes
-- Learning experience
-- Future plan
-
-Current Progress
-
-```
-██████████████████
-
-18 / ∞
-```
-
----
-
-## 🧪 Practical Labs
-
-Purpose
-
-- Practical commands
-- Terminal output
-- Lab observations
-- Linux practice
-- Security experiments
-
-Current Progress
-
-```
-█████████████
-
-13 / ∞
-```
-
----
-
-## 📝 Technical Notes
-
-Purpose
-
-- Theory
-- Revision
-- Important concepts
-- Command explanations
-- Quick reference
-
-Current Progress
-
-```
-█████████████
-
-13 / ∞
-```
-
----
-
-## 📷 Practical Screenshots
-
-Purpose
-
-Visual evidence of every practical session.
-
-Includes
-
-- Linux terminal
-- SSH
-- Practical Labs
-- OverTheWire
-- Future HTB Labs
-- Networking Labs
-
-Current Progress
-
-```
-██████████████████████████
-
-29 Screenshots
-```
-
----
-
-# 📊 Documentation Statistics
-
-| Category | Count |
-|-----------|------:|
-| 📓 Journals | **18** |
-| 🧪 Labs | **13** |
-| 📝 Notes | **13** |
-| 📷 Screenshots | **29** |
-| ⏱ Study Hours | **36+** |
-
----
-
-# 🗂 Documentation Workflow
-
-```
-Theory
-
-↓
-
-Notes
-
-↓
-
-Practical Lab
-
-↓
-
-Screenshots
-
-↓
-
-Journal
-
-↓
-
-Revision
-
-↓
-
-Projects
-
-↓
-
-Research
-```
-
-Every topic follows this workflow before moving to the next one.
-
----
-
-# 🧪 Practical Areas Covered
-
-✅ Linux Navigation
-
-✅ Hidden Files
-
-✅ File Management
-
-✅ Search Utilities
-
-✅ File Permissions
-
-✅ SSH Authentication
-
-✅ RSA Keys
-
-✅ ED25519 Keys
-
-✅ Fingerprints
-
-✅ Randomart
-
----
-
-# 📖 Topics Completed
-
-| Topic | Status |
-|--------|:------:|
-| Linux Basics | ✅ |
-| Navigation | ✅ |
-| Hidden Files | ✅ |
-| File Management | ✅ |
-| Permissions | ✅ |
-| Search Commands | ✅ |
-| SSH | ✅ |
-
----
-
-# 🚀 Upcoming Topics
-
-⬜ Bash Scripting
-
-⬜ Linux Processes
-
-⬜ Networking Fundamentals
-
-⬜ Python Programming
-
-⬜ Cryptography
-
-⬜ Web Security
-
-⬜ Active Directory
-
-⬜ Digital Forensics
-
-⬜ Reverse Engineering
-
-⬜ Malware Analysis
-
-⬜ Cloud Security
-
----
-
-# 🏗 Repository Philosophy
-
-This repository is built around one simple principle.
-
-> **Understand first. Document second. Practice third. Build forever.**
-
-Instead of simply collecting commands, every concept is:
-
-- Learned
-- Understood
-- Practiced
-- Documented
-- Revised
-- Applied
-
----
-
-# ⭐ Documentation Standards
-
-Every Journal contains
-
-- Objectives
-- Theory Summary
-- Practical Work
-- Mistakes
-- Reflection
-- Next Day Plan
-
----
-
-Every Lab contains
-
-- Objective
-- Environment
-- Commands Used
-- Practical Tasks
-- Observations
-- Conclusion
-
----
-
-Every Note contains
-
-- Concepts
-- Command Reference
-- Syntax
-- Examples
-- Revision Checklist
-
----
-
-# 🎯 Current Repository Health
+## Linux
 
 ```text
-Repository Organization      ████████████████████
-
-Documentation Quality        ███████████████████░
-
-Linux Fundamentals           ██████████████░░░░░░
-
-Cybersecurity Foundation     ████████░░░░░░░░░░░░
-
-Project Development          ░░░░░░░░░░░░░░░░░░░░
-
-Research                     ░░░░░░░░░░░░░░░░░░░░
+████████████████░░░░░░░░░░░░░░░░░░ 40%
 ```
 
----
+✔ Linux Navigation
 
-# 💡 Repository Goal
+✔ File Management
 
-This repository is intended to evolve from:
+✔ File Permissions
 
-```
-Learning Notes
+✔ Shell Commands
 
-↓
+✔ Redirection
 
-Technical Documentation
+✔ Pipes
 
-↓
+✔ Grep
 
-Professional Portfolio
+✔ Find
 
-↓
+✔ SSH
 
-Research Portfolio
+✔ SSH Public Key Authentication
 
-↓
-
-Cybersecurity Knowledge Base
-```
-
-Eventually, it will represent years of structured learning, practical experimentation, and security research.
-# 🔬 Research Roadmap
-
-One of the long-term goals of this repository is to contribute to the cybersecurity community through original research.
-
-Rather than only learning existing concepts, I aim to investigate real-world cybersecurity problems and eventually publish my work in reputed conferences or journals.
-
----
-
-## 🎯 Target Publications
-
-- 📚 IEEE Conference
-- 📚 Springer Conference
-- 📚 ACM Student Research Track (Future Goal)
-
----
-
-## 📅 Research Timeline
-
-| Phase | Status |
-|---------|:------:|
-| Cybersecurity Fundamentals | 🔄 In Progress |
-| Literature Survey | ⏳ Planned |
-| Topic Selection | ⏳ Planned |
-| Problem Identification | ⏳ Planned |
-| Dataset Collection | ⏳ Planned |
-| Prototype Development | ⏳ Planned |
-| Experimental Evaluation | ⏳ Planned |
-| Paper Writing | ⏳ Planned |
-| Submission | ⏳ Planned |
-
----
-
-## 💡 Potential Research Domains
-
-Future research may explore topics such as:
-
-- AI for Cybersecurity
-- Network Intrusion Detection
-- Malware Detection using Machine Learning
-- Password Security
-- Cryptography
-- Blockchain Security
-- Threat Intelligence
-- Cloud Security
-- IoT Security
-- Digital Forensics
-
----
-
-# 🏆 IIT Kanpur Cybersecurity Preparation
-
-This repository is being developed alongside my preparation for the IIT Kanpur Cybersecurity Program.
-
-The objective is to build a portfolio that demonstrates:
-
-- Strong technical foundations
-- Consistent learning
-- Practical experimentation
-- Documentation discipline
-- Problem-solving ability
-
----
-
-## 📊 Preparation Tracker
-
-```text
-Linux Fundamentals          ████████████████████
-
-Networking                  ██░░░░░░░░░░░░░░░░░
-
-Programming                 ░░░░░░░░░░░░░░░░░░░
-
-Cryptography                ░░░░░░░░░░░░░░░░░░░
-
-Web Security                ░░░░░░░░░░░░░░░░░░░
-
-Projects                    ░░░░░░░░░░░░░░░░░░░
-
-Research                    ░░░░░░░░░░░░░░░░░░░
-
-Hackathon Readiness         ░░░░░░░░░░░░░░░░░░░
-```
-
----
-
-# 🎮 Hack The Box Roadmap
-
-Hands-on practice will gradually move from beginner Linux challenges to realistic penetration testing environments.
-
-## Planned Progression
-
-```
-Linux
-
-↓
-
-OverTheWire
-
-↓
-
-Hack The Box Academy
-
-↓
-
-Easy Machines
-
-↓
-
-Medium Machines
-
-↓
-
-CTFs
-
-↓
-
-Realistic Attack Simulations
-```
-
----
-
-## Planned Skills
-
-- Linux Enumeration
-- Privilege Escalation
-- Web Enumeration
-- Network Enumeration
-- Password Attacks
-- File Transfers
-- Exploitation Basics
-- Post Exploitation
-- Reporting
-
----
-
-# 📜 Certification Roadmap
-
-The goal is to strengthen practical knowledge through selected certifications.
-
-## Planned Certifications
-
-| Certification | Status |
-|--------------|:------:|
-| Cisco Networking Basics | ⏳ |
-| Cisco Introduction to Cybersecurity | ⏳ |
-| Cisco Junior Cybersecurity Analyst | ⏳ |
-| Fortinet NSE (Free Modules) | ⏳ |
-| Google Cybersecurity (Future) | ⏳ |
-
----
-
-# 🚀 Future Projects
-
-The following projects are planned as my knowledge grows.
-
-### 🐧 Linux
-
-- Linux Command Reference Tool
-- Bash Automation Scripts
-- Log Analysis Toolkit
-
----
-
-### 🔐 Cybersecurity
-
-- Password Strength Analyzer
-- File Integrity Checker
-- Port Scanner
-- Network Scanner
-- Vulnerability Scanner
-- Secure File Encryptor
-- Malware Hash Database
-
----
-
-### 🤖 AI + Security
-
-- Phishing Email Detector
-- AI Log Analyzer
-- Intrusion Detection Prototype
-- Security Chat Assistant
-
----
-
-# 🏅 Personal Milestones
-
-| Goal | Status |
-|------|:------:|
-| Linux Foundation | ✅ |
-| SSH Fundamentals | ✅ |
-| Documentation Habit | ✅ |
-| GitHub Portfolio Started | ✅ |
-| First Security Project | ⏳ |
-| First CTF Completion | ⏳ |
-| First HTB Machine | ⏳ |
-| First Research Proposal | ⏳ |
-| First IEEE/Springer Submission | ⏳ |
-
----
-
-# 💼 Long-Term Vision
-
-This repository is intended to grow beyond a learning journal.
-
-The long-term vision is to transform it into:
-
-```
-Learning Repository
-
-↓
-
-Cybersecurity Portfolio
-
-↓
-
-Technical Knowledge Base
-
-↓
-
-Research Archive
-
-↓
-
-Professional Security Portfolio
-```
-
----
-
-# 🌟 Personal Commitment
-
-> I am documenting this journey publicly to measure consistent progress, strengthen my technical foundation, and develop the discipline required for cybersecurity research, competitive programs, and real-world security engineering.
-
-Every completed journal, lab, note, and project represents another step toward becoming a skilled cybersecurity professional.
----
-
-# 📈 Repository Growth
-
-The repository is updated consistently after every learning session.
-
-## Progress Overview
-
-| Metric | Current |
-|--------|--------:|
-| 📅 Active Learning Days | **18** |
-| 📓 Journal Entries | **18** |
-| 🧪 Practical Labs | **13** |
-| 📝 Technical Notes | **13** |
-| 📷 Practical Screenshots | **29** |
-| ⏱️ Total Study Time | **36+ Hours** |
-
----
-
-## 📊 Repository Evolution
-
-```text
-Repository Started
-        │
-        ▼
-Linux Basics
-███████
-
-Filesystem
-████████████
-
-Permissions
-██████████████
-
-Search Utilities
-████████████████
-
-SSH Authentication
-██████████████████
-
-Linux Foundation
-██████████████████████
-
-Networking
-░░░░░░░░░░░░░░░░░░░░░░
-
-Programming
-░░░░░░░░░░░░░░░░░░░░░░
-
-Cybersecurity
-░░░░░░░░░░░░░░░░░░░░░░
-```
-
----
-
-# 📚 Learning Philosophy
-
-This repository is built around a simple workflow.
-
-```
-Learn
-
-↓
-
-Understand
-
-↓
-
-Practice
-
-↓
-
-Document
-
-↓
-
-Revise
-
-↓
-
-Apply
-
-↓
-
-Build
-
-↓
-
-Research
-
-↓
-
-Teach
-```
-
-The objective is to understand concepts deeply enough to solve unfamiliar problems, not simply memorize commands.
-
----
-
-# 🗂️ Current Learning Stack
-
-## Operating Systems
-
-- ✅ Linux
-- ⏳ Windows Internals
-
----
-
-## Programming
-
-- ⏳ Python
-- ⏳ C
-- ⏳ C++
+✔ OpenSSH Debugging
 
 ---
 
 ## Networking
 
-- ⏳ OSI Model
-- ⏳ TCP/IP
-- ⏳ DNS
-- ⏳ DHCP
-- ⏳ HTTP
-- ⏳ HTTPS
+```text
+███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 8%
+```
+
+✔ Localhost
+
+✔ Ports
+
+✔ SSH Communication
+
+🔄 TCP/IP (Current)
+
+⬜ Netcat
+
+⬜ Telnet
+
+⬜ OpenSSL
+
+⬜ Nmap
+
+---
+
+## Programming
+
+```text
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+```
+
+Upcoming
+
+- Bash Scripting
+- Python
+- C
+- C++
+- SQL
 
 ---
 
 ## Cybersecurity
 
-- 🔄 Linux Security
-- ⏳ Cryptography
-- ⏳ Web Security
-- ⏳ Digital Forensics
-- ⏳ Reverse Engineering
-- ⏳ Malware Analysis
-- ⏳ Active Directory
-- ⏳ Cloud Security
+```text
+████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 12%
+```
+
+Completed
+
+- Linux Fundamentals
+- SSH Authentication
+- Linux Permissions
+- Linux File System
+- Basic Security Concepts
+
+Upcoming
+
+- Web Security
+- Cryptography
+- Reverse Engineering
+- Malware Analysis
+- Active Directory
+- Cloud Security
 
 ---
 
-# 🎯 Current Priorities
+# 🏆 Milestone Timeline
 
-- Complete Linux Foundation
+| Milestone | Status |
+|------------|--------|
+| Started Linux Journey | ✅ |
+| GitHub Repository Created | ✅ |
+| Daily Journaling Started | ✅ |
+| Professional Documentation System Created | ✅ |
+| OverTheWire Started | ✅ |
+| SSH Authentication Mastered | ✅ |
+| Bandit Level 13 Completed | ✅ |
+| Networking Module Started | 🔄 |
+| Python Learning | ⏳ |
+| First PicoCTF Challenge | ⏳ |
+| First Hack The Box Machine | ⏳ |
+| First Cybersecurity Project | ⏳ |
+| First Research Paper | ⏳ |
+
+---
+
+# 🔥 Current Sprint
+
+## Sprint Name
+
+**Linux & Networking Foundations**
+
+### Current Focus
+
+- Linux Administration
+- OpenSSH
+- TCP/IP Basics
+- Localhost Services
+- Linux Permissions
+- Bash Fundamentals
+
+---
+
+### Daily Workflow
+
+```text
+Theory
+   ↓
+Notes
+   ↓
+Hands-on Practice
+   ↓
+Lab Documentation
+   ↓
+Journal Writing
+   ↓
+Revision
+```
+
+---
+
+# 🎯 Current Objectives
+
+By the completion of the current sprint I aim to:
+
+- Complete Linux Fundamentals
 - Complete OverTheWire Bandit
-- Learn Bash Scripting
-- Begin Networking
-- Start Python
-- Begin Hack The Box Academy
-- Build First Cybersecurity Project
-- Begin Research Preparation
+- Build confidence with SSH
+- Learn TCP/IP fundamentals
+- Master Linux troubleshooting
+- Begin networking tools
+- Prepare for advanced CTF platforms
 
 ---
 
-# 🏆 Achievements
+# 📅 Immediate Goals
 
-## Completed
+### Short-Term (Current)
 
-- ✅ Established a consistent daily learning routine
-- ✅ Created a structured documentation system
-- ✅ Built a GitHub portfolio from the beginning of the journey
-- ✅ Completed Linux fundamentals (current stage)
-- ✅ Completed the SSH fundamentals module
-- ✅ Maintained organized journals, labs, notes, and screenshots
+- Finish Linux Foundations
+- Complete Networking Basics
+- Start Bash Scripting
+- Continue documenting every learning session
 
 ---
 
-## Upcoming Milestones
+### Mid-Term
 
-- ⏳ Complete OverTheWire Bandit
-- ⏳ Complete Linux Revision
-- ⏳ Build First Python Tool
-- ⏳ Complete First Hack The Box Machine
-- ⏳ Publish First Security Project
-- ⏳ Draft First Research Paper
-- ⏳ Submit Research to IEEE / Springer
+- Complete 200+ PicoCTF Challenges
+- Start Hack The Box
+- Build Cybersecurity Projects
+- Earn foundational certifications
 
 ---
 
-# 🤝 Repository Principles
+### Long-Term
 
-Every document committed to this repository follows these principles:
+- Participate in IIT Kanpur Cybersecurity Program
+- Publish technical blogs
+- Write beginner-friendly cybersecurity research
+- Build open-source security tools
+- Become an industry-ready cybersecurity professional
 
-- Accuracy over speed
-- Understanding over memorization
-- Consistency over intensity
-- Documentation over assumptions
-- Practical implementation over theory alone
+---
+
+> **"Small improvements made consistently create extraordinary results over time."**
+
+---
+---
+
+# 🧠 Cybersecurity Knowledge Map
+
+```text
+Cybersecurity
+│
+├── 🐧 Linux
+│   ├── Navigation
+│   ├── File System
+│   ├── Permissions
+│   ├── Users & Groups
+│   ├── Pipes & Redirection
+│   ├── SSH
+│   └── Bash
+│
+├── 🌐 Networking
+│   ├── TCP/IP
+│   ├── DNS
+│   ├── HTTP
+│   ├── Ports
+│   ├── Netcat
+│   ├── OpenSSL
+│   └── Nmap
+│
+├── 🔐 Cryptography
+│   ├── Hashing
+│   ├── AES
+│   ├── RSA
+│   ├── Diffie-Hellman
+│   ├── Digital Signatures
+│   └── PKI
+│
+├── 🌍 Web Security
+│   ├── HTML
+│   ├── JavaScript
+│   ├── Authentication
+│   ├── Sessions
+│   ├── Cookies
+│   ├── Burp Suite
+│   └── OWASP Top 10
+│
+├── ⚙️ Programming
+│   ├── Bash
+│   ├── Python
+│   ├── C
+│   └── C++
+│
+├── 🔎 OSINT
+│   ├── Image Intelligence
+│   ├── Metadata
+│   ├── Geolocation
+│   ├── Google Dorks
+│   └── Social Media Intelligence
+│
+└── 🏴 Capture The Flag
+    ├── Linux
+    ├── Web
+    ├── Crypto
+    ├── Forensics
+    ├── Reverse Engineering
+    └── Miscellaneous
+```
+
+---
+
+# 📊 Technical Skills Matrix
+
+| Skill | Progress |
+|--------|---------|
+| 🐧 Linux | ████████████░░░░░░░░ 40% |
+| 🔑 SSH | ███████████████░░░░░ 70% |
+| 🌐 Networking | ███░░░░░░░░░░░░░░░░░ 10% |
+| 💻 Bash | ██░░░░░░░░░░░░░░░░░░ 8% |
+| 🐍 Python | ░░░░░░░░░░░░░░░░░░░░ 0% |
+| 🌍 Web Security | ░░░░░░░░░░░░░░░░░░░░ 0% |
+| 🔐 Cryptography | ░░░░░░░░░░░░░░░░░░░░ 0% |
+| 🧬 Reverse Engineering | ░░░░░░░░░░░░░░░░░░░░ 0% |
+| ☁️ Cloud Security | ░░░░░░░░░░░░░░░░░░░░ 0% |
+
+---
+
+# 🏅 Achievement Gallery
+
+## Linux
+
+- ✅ Linux Terminal Navigation
+- ✅ File Management
+- ✅ File Permissions
+- ✅ Search Utilities
+- ✅ File Redirection
+- ✅ Pipes
+- ✅ OpenSSH
+- ✅ SSH Key Authentication
+
+---
+
+## Documentation
+
+- ✅ Daily Learning Journal
+- ✅ Practical Labs
+- ✅ Technical Notes
+- ✅ Important Revision Files
+- ✅ Professional GitHub Repository
+
+---
+
+## Capture The Flag
+
+Current Platform
+
+- ✅ OverTheWire Bandit
+
+Future Platforms
+
+- ⏳ PicoCTF
+- ⏳ Hack The Box
+- ⏳ PortSwigger Web Security Academy
+- ⏳ CyberDefenders
+
+---
+
+# 🔬 Research Interests
+
+As my knowledge grows, I plan to explore research in the following domains:
+
+### Linux Security
+
+- SSH Security
+- Linux Hardening
+- Privilege Escalation
+- Process Security
+
+---
+
+### Cryptography
+
+- RSA
+- AES
+- Hash Functions
+- Digital Signatures
+- Public Key Infrastructure
+
+---
+
+### Web Security
+
+- Authentication
+- Session Management
+- SQL Injection
+- Cross-Site Scripting
+- Server Misconfiguration
+
+---
+
+### Artificial Intelligence
+
+- AI in Threat Detection
+- AI for Malware Analysis
+- AI-assisted Security Automation
+
+---
+
+### Digital Forensics
+
+- Memory Analysis
+- Disk Forensics
+- Log Investigation
+- Timeline Analysis
+
+---
+
+# 🏴 Capture The Flag Roadmap
+
+## Stage 1
+
+✅ OverTheWire Bandit
+
+Purpose
+
+- Linux
+- SSH
+- Permissions
+- Networking
+
+---
+
+## Stage 2
+
+⏳ PicoCTF
+
+Target
+
+> Solve **200+ Challenges**
+
+Categories
+
+- Web
+- Crypto
+- Binary
+- Reverse
+- Forensics
+- OSINT
+
+---
+
+## Stage 3
+
+⏳ Hack The Box
+
+Focus
+
+- Realistic Machines
+- Enumeration
+- Privilege Escalation
+- Active Directory
+- Windows
+- Linux
+
+---
+
+## Stage 4
+
+⏳ Hackathons
+
+Preparation Areas
+
+- Time Management
+- Pressure Handling
+- Team Coordination
+- OSINT
+- Networking
+- Reverse Engineering
+- Linux
+- Web Security
+
+---
+
+# 🌟 Learning Principles
+
+I follow five principles throughout this journey:
+
+- 📖 Learn deeply before moving forward.
+- 💻 Practice every concept in a Linux environment.
+- 📝 Document everything professionally.
+- 🔄 Revise regularly to strengthen retention.
+- 🚀 Apply knowledge through practical challenges and CTFs.
+
+---
+
+# 📌 Quote of the Sprint
+
+> **"Knowledge becomes skill only after consistent practice."**
+
+---
+---
+
+# 📚 Knowledge Library
+
+Every concept I learn is documented in multiple formats to maximise retention and provide future reference.
+
+| Category | Purpose | Status |
+|-----------|---------|:------:|
+| 📖 Journals | Daily learning reflections & progress tracking | ✅ Active |
+| 🧪 Labs | Hands-on practical exercises | ✅ Active |
+| 📚 Notes | Detailed theory & explanations | ✅ Active |
+| ⭐ Important | Quick revision sheets & cheat notes | ✅ Active |
+| 📸 Screenshots | Practical proof of work | ✅ Active |
+| 🚀 Projects | Security & automation projects | 🔄 Coming Soon |
+
+---
+
+# 📖 Journal Archive
+
+My journals document every learning day with objectives, concepts learned, practical work, mistakes, reflections and future goals.
+
+### Current Statistics
+
+```text
+📅 Total Learning Days : 19
+📝 Journal Entries     : 19
+⏱️ Learning Time       : 34+ Hours
+```
+
+### Journal Structure
+
+```
+Journal
+│
+├── Day001
+├── Day002
+├── Day003
+│
+├── ...
+│
+├── Day018
+└── Day019
+```
+
+Each journal contains:
+
+- Daily Objectives
+- Topics Covered
+- Commands Practiced
+- Practical Work
+- Mistakes Made
+- Lessons Learned
+- Reflections
+- Tomorrow's Goals
+
+---
+
+# 🧪 Practical Laboratory
+
+Cybersecurity cannot be learned only by reading.
+
+Every important concept is accompanied by practical experimentation.
+
+## Current Labs
+
+```text
+Lab001  Linux Navigation
+
+Lab002  File Management
+
+Lab003  Linux Searching
+
+Lab004  Permissions
+
+Lab005  Pipes & Redirection
+
+Lab006  Shell Utilities
+
+Lab007  File Operations
+
+Lab008  Linux Practice
+
+Lab009  Search Utilities
+
+Lab010  SSH Basics
+
+Lab011  Linux Administration
+
+Lab012  SSH Introduction
+
+Lab013  SSH Public Key Authentication
+```
+
+Every lab includes
+
+- Objective
+- Environment
+- Commands Used
+- Practical Exercises
+- Observations
+- Troubleshooting
+- Lessons Learned
+
+---
+
+# 📚 Technical Notes
+
+Each topic is converted into structured technical notes for long-term revision.
+
+Current Topics
+
+```text
+Notes001
+
+Notes002
+
+Notes003
+
+...
+
+Notes013
+```
+
+Each note contains
+
+- Definitions
+- Theory
+- Examples
+- Command Syntax
+- Real-world Applications
+- Key Concepts
+- Summary
+
+---
+
+# ⭐ Important Revision Files
+
+These files act as quick revision guides before CTFs, hackathons and interviews.
+
+Current Collection
+
+```text
+Important001
+
+Important002
+
+Important003
+
+...
+
+Important013
+```
+
+Contents
+
+- Important Commands
+- Frequently Used Syntax
+- Common Mistakes
+- Quick Tips
+- Best Practices
+- Revision Points
+
+---
+
+# 📸 Screenshot Gallery
+
+Every practical activity is supported by screenshots to maintain authenticity and track progress.
+
+### Current Collection
+
+```text
+Screenshot001
+
+Screenshot002
+
+...
+
+Screenshot029
+```
+
+These screenshots include
+
+- Linux Commands
+- SSH Authentication
+- Practical Labs
+- CTF Progress
+- Terminal Outputs
+- Learning Milestones
+
+---
+
+# 🏆 Current Achievements
+
+## Linux
+
+- ✅ Linux Navigation
+- ✅ File Management
+- ✅ Searching
+- ✅ Permissions
+- ✅ Pipes
+- ✅ Redirection
+
+---
+
+## SSH
+
+- ✅ SSH Login
+- ✅ Public Key Authentication
+- ✅ Identity Files
+- ✅ SSH Debugging
+- ✅ Localhost Authentication
+
+---
+
+## Documentation
+
+- ✅ Professional Journaling
+- ✅ Practical Lab Documentation
+- ✅ Technical Notes
+- ✅ Revision Sheets
+- ✅ Screenshot Archive
+
+---
+
+# 🚀 Upcoming Projects
+
+As my technical knowledge grows, I plan to build practical cybersecurity projects.
+
+### Linux
+
+- Linux Administration Toolkit
+- Bash Automation Scripts
+- System Monitoring Dashboard
+
+---
+
+### Python
+
+- Port Scanner
+- Password Strength Analyzer
+- Log Parser
+- File Integrity Checker
+- Hash Generator
+
+---
+
+### Networking
+
+- TCP Chat Application
+- Packet Analyzer
+- DNS Lookup Tool
+
+---
+
+### Web Security
+
+- SQL Injection Playground
+- Authentication Demo
+- Cookie Inspector
+
+---
+
+### Cryptography
+
+- AES File Encryptor
+- RSA Demonstration
+- Hash Verification Utility
+
+---
+
+### Artificial Intelligence
+
+- AI Security Assistant
+- Malware Classification
+- Threat Intelligence Dashboard
+
+---
+
+# 📅 Current Learning Sprint
+
+## Sprint Goal
+
+Complete Linux Fundamentals and Networking Foundations before beginning active Capture The Flag practice.
+
+### Current Focus
+
+- Linux
+- SSH
+- Networking
+- Documentation
+- Practical Learning
+
+### Next Focus
+
+- Netcat
+- TCP/IP
+- Nmap
+- Bash Scripting
+- Python
+
+---
+
+# 🌟 Repository Philosophy
+
+This repository is not simply a collection of notes.
+
+It is intended to become a complete record of my journey from beginner to cybersecurity professional.
+
+Every command executed, every mistake encountered, every lesson learned and every challenge solved contributes to building real technical expertise.
+
+---
+
+> **"Small daily improvements, documented consistently, become extraordinary achievements over time."**
+
+---
+---
+
+# 🏆 Certification Roadmap
+
+Although practical skills remain my highest priority, industry-recognised certifications will be pursued to validate my knowledge and strengthen my professional profile.
+
+## 🟢 Foundation Level
+
+| Certification | Status |
+|--------------|:------:|
+| Cisco Linux Essentials | ⏳ Planned |
+| Google Cybersecurity Professional Certificate | ⏳ Planned |
+| Cisco Networking Basics | ⏳ Planned |
+| Cisco Introduction to Cybersecurity | ⏳ Planned |
+
+---
+
+## 🟡 Intermediate Level
+
+| Certification | Status |
+|--------------|:------:|
+| CompTIA Security+ | ⏳ Planned |
+| eJPT (INE) | ⏳ Planned |
+| Microsoft Security Fundamentals (SC-900) | ⏳ Planned |
+| AWS Cloud Practitioner | ⏳ Planned |
+
+---
+
+## 🔴 Advanced Level
+
+| Certification | Status |
+|--------------|:------:|
+| PNPT | 🔒 Future Goal |
+| OSCP | 🔒 Future Goal |
+| CRTO | 🔒 Future Goal |
+| CISSP | 🔒 Long-Term Goal |
+
+---
+
+# 🏴 Capture The Flag Journey
+
+Capture The Flag (CTF) competitions are my primary method of applying theoretical concepts to practical cybersecurity problems.
+
+## Current Progress
+
+| Platform | Progress |
+|----------|:--------:|
+| OverTheWire | ✅ Active |
+| PicoCTF | ⏳ Planned |
+| Hack The Box | ⏳ Planned |
+| PortSwigger Academy | ⏳ Planned |
+| CyberDefenders | ⏳ Planned |
+
+---
+
+## Planned Challenge Targets
+
+| Platform | Goal |
+|----------|------|
+| OverTheWire | Complete all beginner series |
+| PicoCTF | **200+ Challenges** |
+| Hack The Box | Complete beginner & intermediate machines |
+| PortSwigger | Complete all Apprentice labs |
+| CyberDefenders | DFIR & Blue Team scenarios |
+
+---
+
+# 🚀 Hackathon Preparation Roadmap
+
+Preparing specifically for cybersecurity hackathons requires more than technical knowledge.
+
+## Technical Skills
+
+- Linux
+- Networking
+- OSINT
+- Cryptography
+- Web Security
+- Reverse Engineering
+- Programming
+- Digital Forensics
+
+---
+
+## Problem Solving Skills
+
+- Time Management
+- Team Collaboration
+- Logical Thinking
+- Fast Enumeration
+- Report Writing
+- Presentation Skills
+
+---
+
+## Competition Simulation
+
+Future practice will include:
+
+- Timed CTF sessions
+- Realistic Hackathon simulations
+- Team-based security challenges
+- Multi-category problem solving
+
+---
+
+# 🔬 Research Areas
+
+As my technical foundation becomes stronger, I plan to study and research topics including:
+
+## Linux Security
+
+- SSH Security
+- Linux Hardening
+- Privilege Escalation
+- PAM Authentication
+- File Integrity
+
+---
+
+## Networking
+
+- TCP/IP Internals
+- Packet Analysis
+- Network Enumeration
+- Secure Communication
+
+---
+
+## Cryptography
+
+- AES
+- RSA
+- Elliptic Curve Cryptography
+- Digital Signatures
+- Secure Key Exchange
+
+---
+
+## Web Security
+
+- Authentication Systems
+- Secure Sessions
+- API Security
+- Web Exploitation
+- Secure Coding
+
+---
+
+## Artificial Intelligence & Cybersecurity
+
+- AI Assisted Threat Detection
+- AI Powered Malware Classification
+- Security Automation
+- Prompt Injection Research
+- LLM Security
+
+---
+
+# 🧪 Future Project Pipeline
+
+Projects planned for this repository:
+
+## Linux
+
+- Linux Administration Toolkit
+- Bash Automation Suite
+- Process Monitoring Dashboard
+
+---
+
+## Networking
+
+- TCP Chat Server
+- DNS Resolver
+- Port Scanner
+- Network Scanner
+
+---
+
+## Python
+
+- Password Manager
+- Hash Generator
+- File Integrity Checker
+- Log Analyzer
+- Metadata Extractor
+
+---
+
+## Cybersecurity
+
+- Vulnerability Scanner
+- Password Strength Analyzer
+- Brute Force Demonstration Lab
+- Linux Audit Tool
+
+---
+
+## Artificial Intelligence
+
+- AI Security Assistant
+- Threat Intelligence Dashboard
+- Malware Classification Prototype
 
 ---
 
 # 🌍 Long-Term Vision
 
-The goal is not only to become proficient in cybersecurity, but also to contribute back to the community through:
+I aim to become a cybersecurity professional capable of:
 
-- Open-source projects
-- Security tools
-- Educational documentation
-- Research publications
-- Technical presentations
-- Community knowledge sharing
+- Conducting penetration tests
+- Solving advanced CTF challenges
+- Performing OSINT investigations
+- Building cybersecurity tools
+- Publishing technical research
+- Mentoring beginners
+- Contributing to open-source security projects
 
+---
+
+# 📈 Personal Development Goals
+
+Beyond technical skills, I am committed to improving:
+
+- Technical Writing
+- Documentation
+- Communication
+- Teamwork
+- Presentation Skills
+- Research Methodology
+- Problem Solving
+- Critical Thinking
+
+---
+
+# 💬 Guiding Principle
+
+```text
+Learn with curiosity.
+
+Practice with discipline.
+
+Document with clarity.
+
+Research with integrity.
+
+Improve continuously.
+
+Share knowledge freely.
+```
+
+---
+
+> **"Cybersecurity is not a destination—it is a lifelong journey of learning, adapting, and solving problems."**
+
+---
+---
+
+# 🛠️ Development Environment
+
+The following tools form my primary cybersecurity learning environment.
+
+## 💻 Operating System
+
+| Tool | Purpose |
+|------|---------|
+| Ubuntu (WSL) | Linux Environment |
+| Windows 11 | Host Operating System |
+
+---
+
+## 🖥️ Development Tools
+
+| Tool | Purpose |
+|------|---------|
+| Visual Studio Code | Code Editor |
+| Git | Version Control |
+| GitHub Desktop | Repository Management |
+| Windows Terminal | Terminal Emulator |
+| Bash | Shell Environment |
+
+---
+
+## 🔒 Security Tools (Current & Future)
+
+### Linux
+
+- OpenSSH
+- Bash
+- grep
+- find
+- sort
+- uniq
+- cat
+- chmod
+- nano
+
+### Networking
+
+- Netcat
+- Nmap
+- Telnet
+- OpenSSL
+- Wireshark
+
+### Web Security
+
+- Burp Suite
+- OWASP ZAP
+
+### Reverse Engineering
+
+- Ghidra
+- x64dbg
+
+### OSINT
+
+- Google Dorks
+- Wayback Machine
+- ExifTool
+- Maltego
+- Shodan
+
+---
+
+# 📂 Documentation Standards
+
+Every learning session follows a professional documentation workflow.
+
+```
+Research
+      ↓
+Learning
+      ↓
+Practical Implementation
+      ↓
+Screenshots
+      ↓
+Lab Documentation
+      ↓
+Technical Notes
+      ↓
+Journal
+      ↓
+Revision Sheet
+```
+
+This workflow ensures that every topic is documented from multiple perspectives, making revision easier and reinforcing long-term understanding.
+
+---
+
+# 📑 Documentation Quality Checklist
+
+Before completing a topic, I ensure that I have:
+
+- ✅ Understood the concept
+- ✅ Practiced it in Linux
+- ✅ Documented it professionally
+- ✅ Written detailed notes
+- ✅ Created a practical lab
+- ✅ Captured screenshots
+- ✅ Added important revision points
+- ✅ Reflected on mistakes and lessons learned
+
+Only after completing this checklist do I move on to the next topic.
+
+---
+
+# 📈 Learning Metrics
+
+Current progress is measured using the following indicators:
+
+| Metric | Current |
+|---------|--------:|
+| 📅 Active Learning Days | **19** |
+| 🧪 Practical Labs | **13** |
+| 📚 Technical Notes | **13** |
+| ⭐ Important Files | **13** |
+| 📸 Screenshots | **29** |
+| 🏴 CTF Platform | OverTheWire |
+| 🖥️ Linux Environment | Ubuntu WSL |
+
+---
+
+# 📖 Recommended Resources
+
+The following resources are used throughout this learning journey.
+
+## Linux
+
+- Ubuntu Documentation
+- Linux Manual Pages (`man`)
+- GNU Documentation
+
+---
+
+## Networking
+
+- RFC Documentation
+- Cisco Networking Academy
+- TCP/IP Guide
+
+---
+
+## Cybersecurity
+
+- OWASP
+- MITRE ATT&CK
+- NIST Cybersecurity Framework
+- CIS Benchmarks
+
+---
+
+## Practice Platforms
+
+- OverTheWire
+- PicoCTF
+- Hack The Box
+- PortSwigger Academy
+- CyberDefenders
+
+---
+
+# 📜 Repository Rules
+
+To maintain consistency, I follow these rules:
+
+- Never skip fundamentals.
+- Understand concepts before memorising commands.
+- Document every practical session.
+- Prefer official documentation over walkthroughs.
+- Learn ethically and responsibly.
+- Focus on real understanding rather than collecting certificates.
+- Maintain a consistent daily learning habit.
+
+---
+
+# 🤝 Contribution Policy
+
+Although this repository is primarily a personal learning journal, constructive feedback is always welcome.
+
+If you notice:
+
+- Better Linux practices
+- Cleaner documentation methods
+- More efficient workflows
+- Technical inaccuracies
+
+feel free to open an issue or suggest improvements.
+
+Constructive criticism helps improve both the repository and my understanding.
+
+---
+
+# 🔥 Current Focus
+
+### Module
+
+**Linux Foundations & Networking**
+
+### Current Topics
+
+- Linux Administration
+- OpenSSH
+- Networking Basics
+- SSH Authentication
+- TCP/IP Fundamentals
+
+### Next Topics
+
+- Netcat
+- Telnet
+- OpenSSL
+- Nmap
+- Bash Scripting
+
+---
+
+# 🌟 Core Values
+
+This repository is built upon five core values:
+
+### 📖 Continuous Learning
+
+Technology evolves constantly, so continuous learning is essential.
+
+---
+
+### 🧠 Deep Understanding
+
+Every concept should be understood thoroughly before moving forward.
+
+---
+
+### 🛠️ Practical Experience
+
+Theory becomes valuable only after practical implementation.
+
+---
+
+### 📝 Professional Documentation
+
+Well-organized documentation strengthens both revision and communication skills.
+
+---
+
+### 🚀 Consistency
+
+Small, consistent improvements create long-term expertise.
+
+---
+
+> **"Mastery is not achieved by learning everything quickly, but by understanding one concept deeply every single day."**
+
+---
 ---
 
 # 📌 Repository Status
 
 ```text
-Overall Repository Completion
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-████████████░░░░░░░░░░░░░░░░░░
+🟢 Repository Status       : ACTIVE
 
-Current Phase
+📅 Current Learning Day    : 019
 
-Linux Foundation & Cybersecurity Fundamentals
+🐧 Current Module          : Linux Foundations
+
+🏴 Current CTF Platform    : OverTheWire
+
+📝 Documentation          : Updated Daily
+
+🎯 Long-Term Goal         : Cybersecurity Professional
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+
+---
+
+# 📈 Repository Highlights
+
+✨ Daily Learning Journal
+
+✨ Professional Technical Documentation
+
+✨ Hands-on Practical Labs
+
+✨ Structured Revision Notes
+
+✨ Real Linux Practice
+
+✨ Capture The Flag Journey
+
+✨ Research-Oriented Learning
+
+✨ Future Cybersecurity Projects
+
+---
+
+# 🌍 Open Source Journey
+
+This repository is more than a collection of files.
+
+It represents a long-term commitment to becoming a skilled cybersecurity professional through structured learning, consistent practice, and transparent documentation.
+
+Every update reflects genuine progress, lessons learned, mistakes corrected, and knowledge gained.
+
+The repository will continue to evolve with:
+
+- New labs
+- Research notes
+- Security projects
+- CTF write-ups
+- Technical articles
+- Open-source tools
+
+---
+
+# 🚀 Future Milestones
+
+```text
+✅ Linux Fundamentals
+
+🔄 Networking Fundamentals
+
+⏳ Bash Scripting
+
+⏳ Python for Cybersecurity
+
+⏳ Cryptography
+
+⏳ Web Security
+
+⏳ Reverse Engineering
+
+⏳ Digital Forensics
+
+⏳ Active Directory
+
+⏳ Cloud Security
+
+⏳ AI + Cybersecurity
+
+⏳ 200+ PicoCTF Challenges
+
+⏳ Hack The Box
+
+⏳ National Hackathons
+
+⏳ Research Projects
+```
+
+---
+
+# 📊 Repository Growth
+
+As this journey continues, this repository will expand with:
+
+📖 Daily Journals
+
+🧪 Practical Laboratories
+
+📚 Technical Notes
+
+⭐ Quick Revision Sheets
+
+📸 Practical Screenshots
+
+🚀 Security Projects
+
+🏴 CTF Write-ups
+
+📄 Research Articles
+
+🛠️ Open Source Utilities
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to the incredible communities and resources that make cybersecurity learning accessible:
+
+- Ubuntu Community
+- GNU Project
+- OpenSSH Developers
+- OverTheWire
+- OWASP Foundation
+- MITRE ATT&CK
+- NIST
+- Cisco Networking Academy
+- Open Source Contributors
+
+Their work has made learning possible for countless students around the world.
+
+---
+
+# 📜 License
+
+This repository is intended for **educational purposes only**.
+
+All practical exercises are performed in legal environments such as:
+
+- OverTheWire
+- Personal Linux Environment
+- Intentionally vulnerable practice platforms
+
+The knowledge documented here is meant to promote ethical learning, responsible disclosure, and defensive cybersecurity practices.
 
 ---
 
 <div align="center">
 
-# 🚀 Thank You for Visiting
+# ⭐ Thank You for Visiting!
 
-### *Every command executed, every lab completed, and every note written represents one step toward becoming a cybersecurity engineer.*
+If you found this repository interesting or useful, consider giving it a ⭐.
 
----
-
-⭐ If you find this repository useful or inspiring, consider following the journey.
+Every update reflects another step in my journey toward becoming a cybersecurity professional.
 
 ---
 
-**Repository Maintained By**
+### **"Stay Curious. Stay Ethical. Never Stop Learning."**
 
-**Debargha Chatterjee**
-
-*Cybersecurity Learner • Linux Enthusiast • Future Security Researcher*
-
-</div>
----
-
-# 🌟 Vision Statement
-
-> *"Great cybersecurity professionals are not built by watching tutorials—they are built by solving problems, documenting lessons, and improving every single day."*
-
-This repository represents my commitment to consistent learning, practical experimentation, and long-term technical growth.
-
-Every journal, lab, note, screenshot, and future project is a documented milestone in my journey from beginner to cybersecurity engineer.
-
-This repository will continue evolving alongside my skills.
-
----
-
-# 🧭 2026–2027 Master Roadmap
-
-```text
-July 2026
-│
-├── Linux Foundation
-│
-├── Bash & SSH
-│
-├── OverTheWire
-│
-▼
-September 2026
-│
-├── Networking
-├── Python Programming
-├── Git
-│
-▼
-November 2026
-│
-├── Cryptography
-├── Web Security
-├── Bash Automation
-│
-▼
-January 2027
-│
-├── Hack The Box Academy
-├── CTF Practice
-│
-▼
-March 2027
-│
-├── Security Projects
-├── AI + Cybersecurity
-│
-▼
-May 2027
-│
-├── Research Paper Draft
-├── Hackathon Preparation
-├── IIT Kanpur Portfolio Ready
-│
-🏆 TARGET ACHIEVED
-```
-
----
-
-# 🎖️ Repository Principles
-
-This repository follows five core principles.
-
-### 📖 Learn Deeply
-
-Understand concepts instead of memorizing commands.
-
----
-
-### 💻 Practice Daily
-
-Every concept must be implemented on a real Linux environment.
-
----
-
-### 📝 Document Everything
-
-Knowledge fades.
-
-Documentation remains.
-
----
-
-### 🔁 Revise Frequently
-
-Revision transforms information into long-term knowledge.
-
----
-
-### 🚀 Build Continuously
-
-Learning only matters if it leads to projects, research, and practical work.
-
----
-
-# 📌 Current Repository Status
-
-```text
-Repository Quality
-
-█████████████████████████░░░░░ 82%
-
-Documentation
-
-██████████████████████████░░░░ 85%
-
-Linux Foundation
-
-████████████████████░░░░░░░░░░ 60%
-
-Cybersecurity Foundation
-
-██████████░░░░░░░░░░░░░░░░░░░░ 25%
-
-Research Preparation
-
-██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 05%
-```
-
----
-
-# 📅 Daily Documentation Workflow
-
-Every study session follows the same process.
-
-```text
-Study
-
-↓
-
-Understand
-
-↓
-
-Terminal Practice
-
-↓
-
-Screenshots
-
-↓
-
-Lab Report
-
-↓
-
-Technical Notes
-
-↓
-
-Daily Journal
-
-↓
-
-GitHub Update
-
-↓
-
-Weekly Revision
-
-↓
-
-Projects
-
-↓
-
-Research
-```
-
----
-
-# 💡 Quote That Guides This Journey
-
-> **"Discipline compounds faster than motivation."**
-
-Success in cybersecurity is not measured by how much you know today.
-
-It is measured by how consistently you improve over months and years.
-
----
-
-# 🚀 Future Repository Expansion
-
-This repository will gradually include:
-
-- 🛡️ Cybersecurity Projects
-- 🧠 AI Security Projects
-- 🌐 Networking Labs
-- 🔍 Digital Forensics
-- ☁️ Cloud Security
-- 🐍 Python Security Tools
-- 📜 Research Papers
-- 🎮 Hack The Box Writeups
-- 🏆 Hackathon Projects
-- 📚 Technical Blogs
-
----
-
-# 🤝 Contributing
-
-This repository is currently maintained as a personal learning portfolio.
-
-However, suggestions regarding:
-
-- Documentation
-- Linux
-- Cybersecurity
-- Project Ideas
-- Research Directions
-
-are always welcome.
-
----
-
-# ⭐ Repository Motto
-
-<div align="center">
-
-## 🛡️ Learn • Practice • Document • Build • Research
-
----
-
-*"One command at a time.*
-
-*One lab at a time.*
-
-*One project at a time.*
-
-*One step closer to becoming a cybersecurity engineer."*
-
----
-
-### 👨‍💻 Maintained by
-
-# **Debargha Chatterjee**
-
-**Cybersecurity Learner | Linux Enthusiast | Future Security Researcher**
-
----
-
-### ⭐ Thanks for visiting this repository.
-
-**Last Updated:** 22 July 2026
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer"/>
 
 </div>
