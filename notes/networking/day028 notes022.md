@@ -184,7 +184,6 @@ Security teams frequently connect remotely to compromised systems using single S
 | `pwd` | Show current directory |
 | `echo` | Print variables or text |
 | `whoami` | Display current username |
-| `id` | Show UID, GID and user information |
 | `chmod` | Modify file permissions |
 | `file` | Identify file type |
 | `find` | Search for files/directories |
